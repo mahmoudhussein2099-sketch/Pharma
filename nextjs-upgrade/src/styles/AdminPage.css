@@ -1,0 +1,70 @@
+/* === User Request Status Styles === */
+.status {
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  text-align: center;
+  display: inline-block;
+}
+
+.status.pending {
+  background-color: #fff3cd;
+  color: #856404;
+  border: 1px solid #ffeeba;
+}
+
+.status.resolved {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+/* Optional: Request Table Styling */
+.request-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.request-table th,
+.request-table td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.request-table th {
+  background-color: #f8f9fa;
+  font-weight: bold;
+}
+
+.request-table button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.request-table button:hover {
+  background-color: #0056b3;
+}
+/* WhatsApp Messages Table */
+.whatsapp-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.whatsapp-table th,
+.whatsapp-table td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.whatsapp-table th {
+  background-color: #f8f9fa;
+  font-weight: bold;
+}

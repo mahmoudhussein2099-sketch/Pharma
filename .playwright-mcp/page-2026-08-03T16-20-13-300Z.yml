@@ -1,0 +1,158 @@
+- generic:
+  - generic [ref=f11e3]:
+    - complementary [ref=f11e4]:
+      - generic [ref=f11e5]:
+        - generic [ref=f11e6]:
+          - generic [ref=f11e7]: ع
+          - generic [ref=f11e8]:
+            - paragraph [ref=f11e9]: Awon Pharmacy
+            - paragraph [ref=f11e10]: لوحة الإدارة
+        - generic [ref=f11e11]:
+          - group "Language" [ref=f11e12]:
+            - button "EN" [ref=f11e13] [cursor=pointer]
+            - button "عربي" [ref=f11e14] [cursor=pointer]
+            - button "हिंदी" [ref=f11e15] [cursor=pointer]
+          - button "Switch to dark mode" [active] [ref=f11e286] [cursor=pointer]
+        - navigation [ref=f11e23]:
+          - link "العودة للمتجر" [ref=f11e24] [cursor=pointer]:
+            - /url: /
+          - button [ref=f11e28] [cursor=pointer]
+          - button [ref=f11e34] [cursor=pointer]
+          - button [ref=f11e39] [cursor=pointer]
+          - button [ref=f11e44] [cursor=pointer]
+          - button [ref=f11e48] [cursor=pointer]
+          - button [ref=f11e51] [cursor=pointer]
+          - button [ref=f11e55] [cursor=pointer]
+          - button [ref=f11e58] [cursor=pointer]
+          - button [ref=f11e62] [cursor=pointer]
+          - button [ref=f11e68] [cursor=pointer]
+          - button [ref=f11e72] [cursor=pointer]
+          - button [ref=f11e76] [cursor=pointer]
+        - generic [ref=f11e81]:
+          - generic [ref=f11e82]: م
+          - generic [ref=f11e84]:
+            - paragraph [ref=f11e85]: مدير النظام
+            - paragraph [ref=f11e86]: المشرف العام
+          - button "تسجيل الخروج" [ref=f11e87] [cursor=pointer]
+    - main [ref=f11e89]:
+      - generic [ref=f11e90]:
+        - heading "لوحة تحكم المدير" [level=1] [ref=f11e91]
+        - generic [ref=f11e92]:
+          - generic [ref=f11e93]:
+            - generic [ref=f11e94]:
+              - heading "إجمالي المبيعات" [level=3] [ref=f11e95]
+              - generic [ref=f11e96]: +12%
+            - paragraph [ref=f11e97]: $24,580
+            - paragraph [ref=f11e98]: هذا الشهر
+          - generic [ref=f11e99]:
+            - generic [ref=f11e100]:
+              - heading "إجمالي الطلبات" [level=3] [ref=f11e101]
+              - generic [ref=f11e102]: +8%
+            - paragraph [ref=f11e103]: "342"
+            - paragraph [ref=f11e104]: هذا الشهر
+          - generic [ref=f11e105]:
+            - generic [ref=f11e106]:
+              - heading "إجمالي العملاء" [level=3] [ref=f11e107]
+              - generic [ref=f11e108]: +15%
+            - paragraph [ref=f11e109]: 1,245
+            - paragraph [ref=f11e110]: هذا الشهر
+          - generic [ref=f11e111]:
+            - generic [ref=f11e112]:
+              - heading "مخزون منخفض" [level=3] [ref=f11e113]
+              - generic [ref=f11e114]: Alert
+            - paragraph [ref=f11e115]: "12"
+            - paragraph [ref=f11e116]: عناصر تحتاج انتباه
+        - generic [ref=f11e117]:
+          - generic [ref=f11e118]:
+            - heading "نظرة عامة على المبيعات" [level=2] [ref=f11e119]
+            - generic [ref=f11e122]:
+              - img [ref=f11e123]:
+                - generic [ref=f11e128]:
+                  - generic [ref=f11e129]: Jan
+                  - generic [ref=f11e131]: Feb
+                  - generic [ref=f11e133]: Mar
+                  - generic [ref=f11e135]: Apr
+                  - generic [ref=f11e137]: May
+                  - generic [ref=f11e139]: Jun
+                - generic [ref=f11e142]:
+                  - generic [ref=f11e143]: "0"
+                  - generic [ref=f11e145]: "2500"
+                  - generic [ref=f11e147]: "5000"
+                  - generic [ref=f11e149]: "7500"
+                  - generic [ref=f11e151]: "10000"
+              - list [ref=f11e163]:
+                - listitem [ref=f11e164]: sales
+          - generic [ref=f11e167]:
+            - heading "نظرة عامة على الطلبات" [level=2] [ref=f11e168]
+            - generic [ref=f11e171]:
+              - img [ref=f11e172]:
+                - generic [ref=f11e177]:
+                  - generic [ref=f11e178]: Jan
+                  - generic [ref=f11e180]: Feb
+                  - generic [ref=f11e182]: Mar
+                  - generic [ref=f11e184]: Apr
+                  - generic [ref=f11e186]: May
+                  - generic [ref=f11e188]: Jun
+                - generic [ref=f11e191]:
+                  - generic [ref=f11e192]: "0"
+                  - generic [ref=f11e194]: "25"
+                  - generic [ref=f11e196]: "50"
+                  - generic [ref=f11e198]: "75"
+                  - generic [ref=f11e200]: "100"
+              - list [ref=f11e218]:
+                - listitem [ref=f11e219]: orders
+        - generic [ref=f11e222]:
+          - generic [ref=f11e223]:
+            - heading "الطلبات الأخيرة" [level=2] [ref=f11e224]
+            - button "عرض الكل" [ref=f11e225] [cursor=pointer]
+          - table [ref=f11e227]:
+            - rowgroup [ref=f11e228]:
+              - row [ref=f11e229]:
+                - columnheader "رقم الطلب" [ref=f11e230]
+                - columnheader "العميل" [ref=f11e231]
+                - columnheader "التاريخ" [ref=f11e232]
+                - columnheader "المبلغ" [ref=f11e233]
+                - columnheader "الحالة" [ref=f11e234]
+                - columnheader "الإجراء" [ref=f11e235]
+            - rowgroup [ref=f11e236]:
+              - row [ref=f11e237]:
+                - cell "#ORD-7245" [ref=f11e238]
+                - cell "John Smith" [ref=f11e239]
+                - cell "June 23, 2025" [ref=f11e240]
+                - cell "$125.00" [ref=f11e241]
+                - cell "تم التسليم" [ref=f11e242]
+                - cell [ref=f11e243]:
+                  - button "عرض" [ref=f11e244] [cursor=pointer]
+              - row [ref=f11e245]:
+                - cell "#ORD-7244" [ref=f11e246]
+                - cell "Sarah Johnson" [ref=f11e247]
+                - cell "June 23, 2025" [ref=f11e248]
+                - cell "$75.50" [ref=f11e249]
+                - cell "قيد المعالجة" [ref=f11e250]
+                - cell [ref=f11e251]:
+                  - button "عرض" [ref=f11e252] [cursor=pointer]
+              - row [ref=f11e253]:
+                - cell "#ORD-7243" [ref=f11e254]
+                - cell "Michael Brown" [ref=f11e255]
+                - cell "June 22, 2025" [ref=f11e256]
+                - cell "$249.99" [ref=f11e257]
+                - cell "تم الشحن" [ref=f11e258]
+                - cell [ref=f11e259]:
+                  - button "عرض" [ref=f11e260] [cursor=pointer]
+              - row [ref=f11e261]:
+                - cell "#ORD-7242" [ref=f11e262]
+                - cell "Emily Davis" [ref=f11e263]
+                - cell "June 22, 2025" [ref=f11e264]
+                - cell "$32.75" [ref=f11e265]
+                - cell "تم التسليم" [ref=f11e266]
+                - cell [ref=f11e267]:
+                  - button "عرض" [ref=f11e268] [cursor=pointer]
+        - generic [ref=f11e269]:
+          - heading "إجراءات سريعة" [level=2] [ref=f11e270]
+          - generic [ref=f11e271]:
+            - button "إضافة منتج" [ref=f11e272] [cursor=pointer]
+            - button "معالجة الطلبات" [ref=f11e275] [cursor=pointer]
+            - button "عرض التقارير" [ref=f11e278] [cursor=pointer]
+            - button "إدارة المخزون" [ref=f11e282] [cursor=pointer]
+  - alert [ref=f11e1]
+  - generic [ref=f11e285]: "25"

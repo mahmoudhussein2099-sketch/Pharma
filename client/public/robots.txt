@@ -1,0 +1,13 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Private areas must not be indexed
+Disallow: /admin
+Disallow: /dashboard
+Disallow: /checkout
+Disallow: /account
+
+# Crawl-delay: 10
+
+Sitemap: https://awon-pharmacy.vercel.app/sitemap.xml

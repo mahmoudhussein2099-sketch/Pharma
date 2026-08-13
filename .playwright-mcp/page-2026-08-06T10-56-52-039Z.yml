@@ -1,0 +1,19 @@
+- generic [ref=f23e2]:
+  - generic [ref=f23e5]:
+    - heading "المساعدة" [level=1] [ref=f23e6]
+    - generic [ref=f23e7]:
+      - navigation [ref=f23e9]:
+        - button "الأسئلة الشائعة" [ref=f23e10] [cursor=pointer]
+        - button "اتصل بالدعم" [active] [ref=f23e11] [cursor=pointer]
+      - generic [ref=f23e25]:
+        - heading "اتصل بالدعم" [level=2] [ref=f23e26]
+        - generic [ref=f23e27]:
+          - generic [ref=f23e32]:
+            - heading "دردشة مباشرة" [level=3] [ref=f23e33]
+            - paragraph [ref=f23e34]: تحدث مع فريق الدعم
+          - generic [ref=f23e39]:
+            - heading "دعم هاتفي" [level=3] [ref=f23e40]
+            - paragraph [ref=f23e41]:
+              - link "+966 17 253 0257" [ref=f23e42] [cursor=pointer]:
+                - /url: tel:+966172530257
+  - alert [ref=f23e1]

@@ -1,0 +1,1397 @@
+- generic [active] [ref=f33e1]:
+  - generic [ref=f33e2]:
+    - banner [ref=f33e3]:
+      - link "تخطى إلى المحتوى" [ref=f33e4] [cursor=pointer]:
+        - /url: "#main-content"
+      - generic [ref=f33e6]:
+        - generic [ref=f33e7]:
+          - link "+966 17 253 0257" [ref=f33e11] [cursor=pointer]:
+            - /url: tel:+966172530257
+          - generic [ref=f33e12]: info@awonpharmacy.com
+        - generic [ref=f33e17]:
+          - link "المساعدة" [ref=f33e18] [cursor=pointer]:
+            - /url: /help
+          - group "Language" [ref=f33e19]:
+            - button "EN" [ref=f33e20] [cursor=pointer]
+            - button "عربي" [ref=f33e21] [cursor=pointer]
+            - button "हिंदी" [ref=f33e22] [cursor=pointer]
+          - button "Switch to light mode" [ref=f33e23] [cursor=pointer]
+      - generic [ref=f33e31]:
+        - link "Awon Pharmacy" [ref=f33e32] [cursor=pointer]:
+          - /url: /
+          - img "Awon Pharmacy" [ref=f33e33]
+          - generic [ref=f33e34]:
+            - generic [ref=f33e35]: Awon
+            - generic [ref=f33e36]: Pharmacy
+        - textbox "البحث عن المنتجات…" [ref=f33e39]
+        - generic [ref=f33e40]:
+          - button "الحساب" [ref=f33e42] [cursor=pointer]
+          - link "المفضلة" [ref=f33e46] [cursor=pointer]:
+            - /url: /wishlist
+          - link "السلة" [ref=f33e49] [cursor=pointer]:
+            - /url: /cart
+            - generic [ref=f33e54]: "2"
+      - navigation "Main navigation" [ref=f33e55]:
+        - list [ref=f33e57]:
+          - listitem [ref=f33e58]:
+            - link "الرئيسية" [ref=f33e59] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=f33e60]:
+            - link "المنتجات" [ref=f33e61] [cursor=pointer]:
+              - /url: /products
+          - listitem [ref=f33e62]:
+            - link "الفئات" [ref=f33e63] [cursor=pointer]:
+              - /url: /categories
+          - listitem [ref=f33e64]:
+            - link "الوصفات الطبية" [ref=f33e65] [cursor=pointer]:
+              - /url: /prescriptions
+          - listitem [ref=f33e66]:
+            - link "اتصل بنا" [ref=f33e67] [cursor=pointer]:
+              - /url: /contact
+          - listitem [ref=f33e68]:
+            - link "المساعدة" [ref=f33e69] [cursor=pointer]:
+              - /url: /help
+    - main [ref=f33e70]:
+      - generic [ref=f33e71]:
+        - generic [ref=f33e72]:
+          - generic [ref=f33e73]:
+            - heading "الفئات" [level=2] [ref=f33e74]
+            - button "طي القائمة الجانبية" [expanded] [ref=f33e75] [cursor=pointer]
+          - generic [ref=f33e79]:
+            - button "الأدوية الموصوفة 148" [ref=f33e81] [cursor=pointer]:
+              - generic [ref=f33e82]: الأدوية الموصوفة
+              - generic [ref=f33e87]: "148"
+            - button "بدون وصفة طبية 303" [ref=f33e92] [cursor=pointer]:
+              - generic [ref=f33e93]: بدون وصفة طبية
+              - generic [ref=f33e98]: "303"
+            - button "الفيتامينات والمكملات 160" [ref=f33e103] [cursor=pointer]:
+              - generic [ref=f33e104]: الفيتامينات والمكملات
+              - generic [ref=f33e109]: "160"
+            - button "العناية بالطفل والأم 79" [ref=f33e114] [cursor=pointer]:
+              - generic [ref=f33e115]: العناية بالطفل والأم
+              - generic [ref=f33e120]: "79"
+            - button "الجمال والعناية الشخصية 99" [ref=f33e125] [cursor=pointer]:
+              - generic [ref=f33e126]: الجمال والعناية الشخصية
+              - generic [ref=f33e131]: "99"
+            - button "الأجهزة الطبية 41" [ref=f33e136] [cursor=pointer]:
+              - generic [ref=f33e137]: الأجهزة الطبية
+              - generic [ref=f33e142]: "41"
+            - button "الإسعافات الأولية والسلامة 17" [ref=f33e147] [cursor=pointer]:
+              - generic [ref=f33e148]: الإسعافات الأولية والسلامة
+              - generic [ref=f33e153]: "17"
+            - button "العناية بالعين والنظر 98" [ref=f33e158] [cursor=pointer]:
+              - generic [ref=f33e159]: العناية بالعين والنظر
+              - generic [ref=f33e164]: "98"
+          - link "رفع الوصفة الطبية" [ref=f33e169] [cursor=pointer]:
+            - /url: /prescriptions
+            - generic [ref=f33e174]: طلب سريع
+          - generic [ref=f33e176]:
+            - heading "صيدلية مرخصة" [level=4] [ref=f33e181]
+            - paragraph [ref=f33e182]: "ترخيص وزارة الصحة #123456/789"
+            - paragraph [ref=f33e183]: معتمدة منذ 2024
+        - generic [ref=f33e184]:
+          - generic [ref=f33e185]:
+            - button "Switch to light mode" [ref=f33e186] [cursor=pointer]
+            - generic [ref=f33e209]:
+              - generic [ref=f33e210]: شريكك الموثوق في الرعاية الصحية
+              - heading "صحتك، أولويتنا" [level=1] [ref=f33e213]:
+                - generic [ref=f33e214]: صحتك،
+                - generic [ref=f33e215]: أولويتنا
+              - paragraph [ref=f33e216]: أدوية عالية الجودة ومنتجات رعاية صحية يتم توصيلها إلى باب منزلك برعاية مهنية
+              - generic [ref=f33e217]:
+                - link "تسوق الآن" [ref=f33e218] [cursor=pointer]:
+                  - /url: /products
+                - link "رفع الوصفة الطبية" [ref=f33e225] [cursor=pointer]:
+                  - /url: /prescriptions
+              - generic [ref=f33e226]:
+                - generic [ref=f33e227]: مرخص
+                - generic [ref=f33e233]: توصيل سريع
+                - generic [ref=f33e239]: 24/7 Support
+          - generic [ref=f33e252]:
+            - generic [ref=f33e255]:
+              - heading "Free Delivery" [level=3] [ref=f33e256]
+              - paragraph [ref=f33e257]: Orders over SAR 100
+            - generic [ref=f33e260]:
+              - heading "Quality Assured" [level=3] [ref=f33e261]
+              - paragraph [ref=f33e262]: 100% Original Products
+            - generic [ref=f33e265]:
+              - heading "Prescription Help" [level=3] [ref=f33e266]
+              - paragraph [ref=f33e267]: Licensed Pharmacists
+          - generic [ref=f33e269]:
+            - generic [ref=f33e270]:
+              - textbox "البحث عن المنتجات…" [ref=f33e272]
+              - button "بحث" [ref=f33e273] [cursor=pointer]
+            - generic [ref=f33e274]:
+              - generic [ref=f33e275]: "Popular:"
+              - button "بانادول إكسترا" [ref=f33e278] [cursor=pointer]
+              - button "فيتامين سي الفوار" [ref=f33e279] [cursor=pointer]
+              - button "Face Mask" [ref=f33e280] [cursor=pointer]
+              - button "Baby Formula" [ref=f33e281] [cursor=pointer]
+          - generic [ref=f33e283]:
+            - generic [ref=f33e284]:
+              - generic [ref=f33e285]: Awon Categories
+              - heading "تسوق حسب الفئة" [level=2] [ref=f33e286]
+              - paragraph [ref=f33e287]: Everything your pharmacy needs, organized for a fast, precise shopping experience
+            - generic [ref=f33e288]:
+              - link "بدون وصفة طبية" [ref=f33e289] [cursor=pointer]:
+                - /url: /products?category=otc
+                - generic: "303"
+                - generic [ref=f33e291]:
+                  - generic [ref=f33e292]: "01"
+                  - generic [ref=f33e300]:
+                    - heading "بدون وصفة طبية" [level=3] [ref=f33e301]
+                    - paragraph [ref=f33e302]:
+                      - generic [ref=f33e303]: Largest selection
+                      - text: 303 المنتجات
+              - link "فيتامينات ومكملات" [ref=f33e308] [cursor=pointer]:
+                - /url: /products?category=vitamins
+                - generic: "160"
+                - generic [ref=f33e310]:
+                  - generic [ref=f33e311]: "02"
+                  - generic [ref=f33e322]:
+                    - heading "فيتامينات ومكملات" [level=3] [ref=f33e323]
+                    - paragraph [ref=f33e324]: 160 المنتجات
+              - link "أدوية بوصفة طبية" [ref=f33e329] [cursor=pointer]:
+                - /url: /products?category=prescription
+                - generic: "148"
+                - generic [ref=f33e331]:
+                  - generic [ref=f33e332]: "03"
+                  - generic [ref=f33e343]:
+                    - heading "أدوية بوصفة طبية" [level=3] [ref=f33e344]
+                    - paragraph [ref=f33e345]: 148 المنتجات
+              - link "التجميل والعناية الشخصية" [ref=f33e350] [cursor=pointer]:
+                - /url: /products?category=beauty
+                - generic: "99"
+                - generic [ref=f33e352]:
+                  - generic [ref=f33e353]: "04"
+                  - generic [ref=f33e362]:
+                    - heading "التجميل والعناية الشخصية" [level=3] [ref=f33e363]
+                    - paragraph [ref=f33e364]: 99 المنتجات
+              - link "العناية بالعين" [ref=f33e369] [cursor=pointer]:
+                - /url: /products?category=eye
+                - generic: "98"
+                - generic [ref=f33e371]:
+                  - generic [ref=f33e372]: "05"
+                  - generic [ref=f33e380]:
+                    - heading "العناية بالعين" [level=3] [ref=f33e381]
+                    - paragraph [ref=f33e382]: 98 المنتجات
+              - link "العناية بالأم والطفل" [ref=f33e387] [cursor=pointer]:
+                - /url: /products?category=baby
+                - generic: "79"
+                - generic [ref=f33e389]:
+                  - generic [ref=f33e390]: "06"
+                  - generic [ref=f33e401]:
+                    - heading "العناية بالأم والطفل" [level=3] [ref=f33e402]
+                    - paragraph [ref=f33e403]: 79 المنتجات
+              - link "الأجهزة الطبية" [ref=f33e408] [cursor=pointer]:
+                - /url: /products?category=medical
+                - generic: "41"
+                - generic [ref=f33e410]:
+                  - generic [ref=f33e411]: "07"
+                  - generic [ref=f33e420]:
+                    - heading "الأجهزة الطبية" [level=3] [ref=f33e421]
+                    - paragraph [ref=f33e422]: 41 المنتجات
+              - link "الإسعافات الأولية" [ref=f33e427] [cursor=pointer]:
+                - /url: /products?category=firstaid
+                - generic: "17"
+                - generic [ref=f33e429]:
+                  - generic [ref=f33e430]: "08"
+                  - generic [ref=f33e438]:
+                    - heading "الإسعافات الأولية" [level=3] [ref=f33e439]
+                    - paragraph [ref=f33e440]: 17 المنتجات
+          - generic [ref=f33e446]:
+            - generic [ref=f33e447]:
+              - generic [ref=f33e448]:
+                - generic [ref=f33e449]:
+                  - generic [ref=f33e450]: Top Picks
+                  - heading "المنتجات المميزة" [level=2] [ref=f33e453]
+                  - paragraph [ref=f33e454]: Top-rated products chosen by our pharmacists
+                - link "عرض الكل" [ref=f33e455] [cursor=pointer]:
+                  - /url: /products
+              - generic [ref=f33e458]:
+                - generic [ref=f33e459]:
+                  - link "Amoxicillin 500mg" [ref=f33e460] [cursor=pointer]:
+                    - /url: /products/1
+                    - img "Amoxicillin 500mg" [ref=f33e462]
+                    - generic [ref=f33e463]: "-15%"
+                  - generic [ref=f33e464]:
+                    - paragraph [ref=f33e465]: مضادات حيوية
+                    - link "Amoxicillin 500mg" [ref=f33e466] [cursor=pointer]:
+                      - /url: /products/1
+                    - generic [ref=f33e467]:
+                      - generic "4.8 stars" [ref=f33e468]
+                      - generic [ref=f33e479]: (245)
+                    - generic [ref=f33e480]:
+                      - generic [ref=f33e481]: SAR 25.50
+                      - generic [ref=f33e482]: SAR 30.00
+                    - paragraph [ref=f33e483]: You save SAR 4.50
+                    - button "أضف إلى السلة" [ref=f33e484] [cursor=pointer]
+                - generic [ref=f33e485]:
+                  - link "Azithromycin 250mg" [ref=f33e486] [cursor=pointer]:
+                    - /url: /products/2
+                    - img "Azithromycin 250mg" [ref=f33e488]
+                  - generic [ref=f33e489]:
+                    - paragraph [ref=f33e490]: مضادات حيوية
+                    - link "Azithromycin 250mg" [ref=f33e491] [cursor=pointer]:
+                      - /url: /products/2
+                    - generic [ref=f33e492]:
+                      - generic "4.6 stars" [ref=f33e493]
+                      - generic [ref=f33e504]: (189)
+                    - generic [ref=f33e505]: SAR 35.75
+                    - button "أضف إلى السلة" [ref=f33e507] [cursor=pointer]
+                - generic [ref=f33e508]:
+                  - link "Lisinopril 10mg" [ref=f33e509] [cursor=pointer]:
+                    - /url: /products/3
+                    - img "Lisinopril 10mg" [ref=f33e511]
+                  - generic [ref=f33e512]:
+                    - paragraph [ref=f33e513]: ضغط الدم
+                    - link "Lisinopril 10mg" [ref=f33e514] [cursor=pointer]:
+                      - /url: /products/3
+                    - generic [ref=f33e515]:
+                      - generic "4.7 stars" [ref=f33e516]
+                      - generic [ref=f33e527]: (312)
+                    - generic [ref=f33e528]: SAR 18.25
+                    - button "أضف إلى السلة" [ref=f33e530] [cursor=pointer]
+                - generic [ref=f33e531]:
+                  - link "Amlodipine 5mg" [ref=f33e532] [cursor=pointer]:
+                    - /url: /products/4
+                    - img "Amlodipine 5mg" [ref=f33e534]
+                    - generic [ref=f33e535]: "-21%"
+                  - generic [ref=f33e536]:
+                    - paragraph [ref=f33e537]: ضغط الدم
+                    - link "Amlodipine 5mg" [ref=f33e538] [cursor=pointer]:
+                      - /url: /products/4
+                    - generic [ref=f33e539]:
+                      - generic "4.5 stars" [ref=f33e540]
+                      - generic [ref=f33e551]: (198)
+                    - generic [ref=f33e552]:
+                      - generic [ref=f33e553]: SAR 22.00
+                      - generic [ref=f33e554]: SAR 28.00
+                    - paragraph [ref=f33e555]: You save SAR 6.00
+                    - button "أضف إلى السلة" [ref=f33e556] [cursor=pointer]
+                - generic [ref=f33e557]:
+                  - link "Panadol Extra" [ref=f33e558] [cursor=pointer]:
+                    - /url: /products/5
+                    - img "Panadol Extra" [ref=f33e560]
+                    - generic [ref=f33e561]: "-14%"
+                  - generic [ref=f33e562]:
+                    - paragraph [ref=f33e563]: مسكنات الألم
+                    - link "Panadol Extra" [ref=f33e564] [cursor=pointer]:
+                      - /url: /products/5
+                    - generic [ref=f33e565]:
+                      - generic "4.8 stars" [ref=f33e566]
+                      - generic [ref=f33e577]: (456)
+                    - generic [ref=f33e578]:
+                      - generic [ref=f33e579]: SAR 15.50
+                      - generic [ref=f33e580]: SAR 18.00
+                    - paragraph [ref=f33e581]: You save SAR 2.50
+                    - button "أضف إلى السلة" [ref=f33e582] [cursor=pointer]
+                - generic [ref=f33e583]:
+                  - link "Ibuprofen 400mg" [ref=f33e584] [cursor=pointer]:
+                    - /url: /products/6
+                    - img "Ibuprofen 400mg" [ref=f33e586]
+                  - generic [ref=f33e587]:
+                    - paragraph [ref=f33e588]: مسكنات الألم
+                    - link "Ibuprofen 400mg" [ref=f33e589] [cursor=pointer]:
+                      - /url: /products/6
+                    - generic [ref=f33e590]:
+                      - generic "4.6 stars" [ref=f33e591]
+                      - generic [ref=f33e602]: (289)
+                    - generic [ref=f33e603]: SAR 12.75
+                    - button "أضف إلى السلة" [ref=f33e605] [cursor=pointer]
+                - generic [ref=f33e606]:
+                  - link "Vitamin C 1000mg" [ref=f33e607] [cursor=pointer]:
+                    - /url: /products/7
+                    - img "Vitamin C 1000mg" [ref=f33e609]
+                  - generic [ref=f33e610]:
+                    - paragraph [ref=f33e611]: فيتامينات متعددة
+                    - link "Vitamin C 1000mg" [ref=f33e612] [cursor=pointer]:
+                      - /url: /products/7
+                    - generic [ref=f33e613]:
+                      - generic "4.7 stars" [ref=f33e614]
+                      - generic [ref=f33e625]: (234)
+                    - generic [ref=f33e626]: SAR 45.00
+                    - button "أضف إلى السلة" [ref=f33e628] [cursor=pointer]
+                - generic [ref=f33e629]:
+                  - link "Omega-3 Fish Oil" [ref=f33e630] [cursor=pointer]:
+                    - /url: /products/8
+                    - img "Omega-3 Fish Oil" [ref=f33e632]
+                    - generic [ref=f33e633]: "-15%"
+                  - generic [ref=f33e634]:
+                    - paragraph [ref=f33e635]: أوميغا 3
+                    - link "Omega-3 Fish Oil" [ref=f33e636] [cursor=pointer]:
+                      - /url: /products/8
+                    - generic [ref=f33e637]:
+                      - generic "4.8 stars" [ref=f33e638]
+                      - generic [ref=f33e649]: (178)
+                    - generic [ref=f33e650]:
+                      - generic [ref=f33e651]: SAR 55.25
+                      - generic [ref=f33e652]: SAR 65.00
+                    - paragraph [ref=f33e653]: You save SAR 9.75
+                    - button "أضف إلى السلة" [ref=f33e654] [cursor=pointer]
+            - generic [ref=f33e655]:
+              - generic [ref=f33e657]:
+                - generic [ref=f33e658]: Limited Time
+                - heading "Special Offers" [level=2] [ref=f33e661]
+                - paragraph [ref=f33e662]: Exclusive discounts curated by our pharmacists — grab them before they are gone
+              - generic [ref=f33e663]:
+                - generic [ref=f33e665]:
+                  - generic [ref=f33e666]:
+                    - link "Amoxicillin 500mg -15%" [ref=f33e667] [cursor=pointer]:
+                      - /url: /products/1
+                      - img "Amoxicillin 500mg" [ref=f33e668]
+                      - generic [ref=f33e669]: "-15%"
+                    - generic [ref=f33e670]:
+                      - heading "Amoxicillin 500mg" [level=3] [ref=f33e671]
+                      - paragraph [ref=f33e672]: مضادات حيوية
+                  - generic [ref=f33e673]:
+                    - generic [ref=f33e674]:
+                      - generic [ref=f33e675]:
+                        - generic [ref=f33e676]: SAR 25.50
+                        - generic [ref=f33e677]: SAR 30.00
+                      - generic [ref=f33e678]: You save SAR 4.50
+                    - generic [ref=f33e681]: "4.8"
+                  - button "أضف إلى السلة" [ref=f33e684] [cursor=pointer]
+                - generic [ref=f33e686]:
+                  - generic [ref=f33e687]:
+                    - link "Amlodipine 5mg -21%" [ref=f33e688] [cursor=pointer]:
+                      - /url: /products/4
+                      - img "Amlodipine 5mg" [ref=f33e689]
+                      - generic [ref=f33e690]: "-21%"
+                    - generic [ref=f33e691]:
+                      - heading "Amlodipine 5mg" [level=3] [ref=f33e692]
+                      - paragraph [ref=f33e693]: ضغط الدم
+                  - generic [ref=f33e694]:
+                    - generic [ref=f33e695]:
+                      - generic [ref=f33e696]:
+                        - generic [ref=f33e697]: SAR 22.00
+                        - generic [ref=f33e698]: SAR 28.00
+                      - generic [ref=f33e699]: You save SAR 6.00
+                    - generic [ref=f33e702]: "4.5"
+                  - button "أضف إلى السلة" [ref=f33e705] [cursor=pointer]
+                - generic [ref=f33e707]:
+                  - generic [ref=f33e708]:
+                    - link "Panadol Extra -14%" [ref=f33e709] [cursor=pointer]:
+                      - /url: /products/5
+                      - img "Panadol Extra" [ref=f33e710]
+                      - generic [ref=f33e711]: "-14%"
+                    - generic [ref=f33e712]:
+                      - heading "Panadol Extra" [level=3] [ref=f33e713]
+                      - paragraph [ref=f33e714]: مسكنات الألم
+                  - generic [ref=f33e715]:
+                    - generic [ref=f33e716]:
+                      - generic [ref=f33e717]:
+                        - generic [ref=f33e718]: SAR 15.50
+                        - generic [ref=f33e719]: SAR 18.00
+                      - generic [ref=f33e720]: You save SAR 2.50
+                    - generic [ref=f33e723]: "4.8"
+                  - button "أضف إلى السلة" [ref=f33e726] [cursor=pointer]
+                - generic [ref=f33e728]:
+                  - generic [ref=f33e729]:
+                    - link "Omega-3 Fish Oil -15%" [ref=f33e730] [cursor=pointer]:
+                      - /url: /products/8
+                      - img "Omega-3 Fish Oil" [ref=f33e731]
+                      - generic [ref=f33e732]: "-15%"
+                    - generic [ref=f33e733]:
+                      - heading "Omega-3 Fish Oil" [level=3] [ref=f33e734]
+                      - paragraph [ref=f33e735]: أوميغا 3
+                  - generic [ref=f33e736]:
+                    - generic [ref=f33e737]:
+                      - generic [ref=f33e738]:
+                        - generic [ref=f33e739]: SAR 55.25
+                        - generic [ref=f33e740]: SAR 65.00
+                      - generic [ref=f33e741]: You save SAR 9.75
+                    - generic [ref=f33e744]: "4.8"
+                  - button "أضف إلى السلة" [ref=f33e747] [cursor=pointer]
+                - generic [ref=f33e749]:
+                  - generic [ref=f33e750]:
+                    - link "Premium Diapers Size 3 -12%" [ref=f33e751] [cursor=pointer]:
+                      - /url: /products/11
+                      - img "Premium Diapers Size 3" [ref=f33e752]
+                      - generic [ref=f33e753]: "-12%"
+                    - generic [ref=f33e754]:
+                      - heading "Premium Diapers Size 3" [level=3] [ref=f33e755]
+                      - paragraph [ref=f33e756]: حفاضات ومناديل مبللة
+                  - generic [ref=f33e757]:
+                    - generic [ref=f33e758]:
+                      - generic [ref=f33e759]:
+                        - generic [ref=f33e760]: SAR 45.75
+                        - generic [ref=f33e761]: SAR 52.00
+                      - generic [ref=f33e762]: You save SAR 6.25
+                    - generic [ref=f33e765]: "4.8"
+                  - button "أضف إلى السلة" [ref=f33e768] [cursor=pointer]
+                - generic [ref=f33e770]:
+                  - generic [ref=f33e771]:
+                    - link "Anti-Aging Face Cream -21%" [ref=f33e772] [cursor=pointer]:
+                      - /url: /products/12
+                      - img "Anti-Aging Face Cream" [ref=f33e773]
+                      - generic [ref=f33e774]: "-21%"
+                    - generic [ref=f33e775]:
+                      - heading "Anti-Aging Face Cream" [level=3] [ref=f33e776]
+                      - paragraph [ref=f33e777]: منتجات العناية بالبشرة
+                  - generic [ref=f33e778]:
+                    - generic [ref=f33e779]:
+                      - generic [ref=f33e780]:
+                        - generic [ref=f33e781]: SAR 75.00
+                        - generic [ref=f33e782]: SAR 95.00
+                      - generic [ref=f33e783]: You save SAR 20.00
+                    - generic [ref=f33e786]: "4.6"
+                  - button "أضف إلى السلة" [ref=f33e789] [cursor=pointer]
+              - link "View All Offers" [ref=f33e791] [cursor=pointer]:
+                - /url: /products?sort=discount
+          - generic [ref=f33e796]:
+            - generic [ref=f33e797]:
+              - heading "عروض وخصومات حصرية" [level=2] [ref=f33e798]
+              - paragraph [ref=f33e799]: اكتشف تشكيلتنا الأكثر طلباً بأفضل الأسعار
+            - generic [ref=f33e800]:
+              - link [ref=f33e801] [cursor=pointer]:
+                - /url: /products
+                - img "awon ad 1" [ref=f33e802]
+                - generic [ref=f33e803]:
+                  - heading "عروض حصرية" [level=3] [ref=f33e804]
+                  - paragraph [ref=f33e805]: خصومات تصل إلى 25%
+                  - generic [ref=f33e806]: تسوق الآن
+              - generic [ref=f33e809]:
+                - link [ref=f33e810] [cursor=pointer]:
+                  - /url: /products
+                  - img "awon ad 2" [ref=f33e811]
+                  - generic [ref=f33e812]:
+                    - heading "فيتاميناتك اليومية" [level=3] [ref=f33e813]
+                    - paragraph [ref=f33e814]: اختر الأنسب لاحتياجك
+                    - generic [ref=f33e815]: تسوق الآن
+                - link [ref=f33e818] [cursor=pointer]:
+                  - /url: /products
+                  - img "awon ad 3" [ref=f33e819]
+                  - generic [ref=f33e820]:
+                    - heading "عناية شخصية" [level=3] [ref=f33e821]
+                    - paragraph [ref=f33e822]: منتجات أصلية 100%
+                    - generic [ref=f33e823]: تسوق الآن
+          - generic [ref=f33e827]:
+            - generic [ref=f33e828]:
+              - generic [ref=f33e829]: Popular Products
+              - heading "Trending Now" [level=2] [ref=f33e830]
+              - paragraph [ref=f33e831]: The most-loved picks our customers keep coming back for
+            - generic [ref=f33e832]:
+              - link "Baby Formula Stage 1" [ref=f33e833] [cursor=pointer]:
+                - /url: /products/10
+                - generic [ref=f33e834]:
+                  - img "Baby Formula Stage 1" [ref=f33e836]
+                  - generic [ref=f33e838]:
+                    - generic [ref=f33e839]: Baby Formula Stage 1
+                    - generic [ref=f33e840]:
+                      - generic [ref=f33e841]: SAR 89.50
+                      - generic [ref=f33e842]: "4.9"
+              - link "ايزي كير جرعة تذكير شهرية للدواء" [ref=f33e845] [cursor=pointer]:
+                - /url: /products/112
+                - generic [ref=f33e846]:
+                  - img "ايزي كير جرعة تذكير شهرية للدواء" [ref=f33e848]
+                  - generic [ref=f33e850]:
+                    - generic [ref=f33e851]: ايزي كير جرعة تذكير شهرية للدواء
+                    - generic [ref=f33e852]:
+                      - generic [ref=f33e853]: SAR 49.58
+                      - generic [ref=f33e854]: "4.9"
+              - link "ديوفان 40 مجم 28 قرص" [ref=f33e857] [cursor=pointer]:
+                - /url: /products/134
+                - generic [ref=f33e858]:
+                  - img "ديوفان 40 مجم 28 قرص" [ref=f33e860]
+                  - generic [ref=f33e862]:
+                    - generic [ref=f33e863]: ديوفان 40 مجم 28 قرص
+                    - generic [ref=f33e864]:
+                      - generic [ref=f33e865]: SAR 23.05
+                      - generic [ref=f33e866]: "4.9"
+              - link "لينزس 290 ميكروجرام 30 كبسول" [ref=f33e869] [cursor=pointer]:
+                - /url: /products/137
+                - generic [ref=f33e870]:
+                  - img "لينزس 290 ميكروجرام 30 كبسول" [ref=f33e872]
+                  - generic [ref=f33e874]:
+                    - generic [ref=f33e875]: لينزس 290 ميكروجرام 30 كبسول
+                    - generic [ref=f33e876]:
+                      - generic [ref=f33e877]: SAR 204.10
+                      - generic [ref=f33e878]: "4.9"
+              - link "فيرتاب - 50 , 50 مجم 10 اقراص" [ref=f33e881] [cursor=pointer]:
+                - /url: /products/141
+                - generic [ref=f33e882]:
+                  - img "فيرتاب - 50 , 50 مجم 10 اقراص" [ref=f33e884]
+                  - generic [ref=f33e886]:
+                    - generic [ref=f33e887]: فيرتاب - 50 , 50 مجم 10 اقراص
+                    - generic [ref=f33e888]:
+                      - generic [ref=f33e889]: SAR 18.10
+                      - generic [ref=f33e890]: "4.9"
+              - link "تينورمين 50 مجم 28 قرص" [ref=f33e893] [cursor=pointer]:
+                - /url: /products/156
+                - generic [ref=f33e894]:
+                  - img "تينورمين 50 مجم 28 قرص" [ref=f33e896]
+                  - generic [ref=f33e898]:
+                    - generic [ref=f33e899]: تينورمين 50 مجم 28 قرص
+                    - generic [ref=f33e900]:
+                      - generic [ref=f33e901]: SAR 18.65
+                      - generic [ref=f33e902]: "4.9"
+              - link "موفيتاب 500 مجم 150 قرص" [ref=f33e905] [cursor=pointer]:
+                - /url: /products/157
+                - generic [ref=f33e906]:
+                  - img "موفيتاب 500 مجم 150 قرص" [ref=f33e908]
+                  - generic [ref=f33e910]:
+                    - generic [ref=f33e911]: موفيتاب 500 مجم 150 قرص
+                    - generic [ref=f33e912]:
+                      - generic [ref=f33e913]: SAR 715.75
+                      - generic [ref=f33e914]: "4.9"
+              - link "كويتال اكس ار 300 ملجم 30 قرص" [ref=f33e917] [cursor=pointer]:
+                - /url: /products/185
+                - generic [ref=f33e918]:
+                  - img "كويتال اكس ار 300 ملجم 30 قرص" [ref=f33e920]
+                  - generic [ref=f33e922]:
+                    - generic [ref=f33e923]: كويتال اكس ار 300 ملجم 30 قرص
+                    - generic [ref=f33e924]:
+                      - generic [ref=f33e925]: SAR 180.95
+                      - generic [ref=f33e926]: "4.9"
+              - link "لوكيلما 10 جم 30 كيس" [ref=f33e929] [cursor=pointer]:
+                - /url: /products/203
+                - generic [ref=f33e930]:
+                  - img "لوكيلما 10 جم 30 كيس" [ref=f33e932]
+                  - generic [ref=f33e934]:
+                    - generic [ref=f33e935]: لوكيلما 10 جم 30 كيس
+                    - generic [ref=f33e936]:
+                      - generic [ref=f33e937]: SAR 1500.85
+                      - generic [ref=f33e938]: "4.9"
+              - link "أبيراتيرون اس بي سي 250 ملجم 120 قرص" [ref=f33e941] [cursor=pointer]:
+                - /url: /products/219
+                - generic [ref=f33e942]:
+                  - img "أبيراتيرون اس بي سي 250 ملجم 120 قرص" [ref=f33e944]
+                  - generic [ref=f33e946]:
+                    - generic [ref=f33e947]: أبيراتيرون اس بي سي 250 ملجم 120 قرص
+                    - generic [ref=f33e948]:
+                      - generic [ref=f33e949]: SAR 6519.15
+                      - generic [ref=f33e950]: "4.9"
+              - link "فيندماكس 61 ملجم 30 كبسوله" [ref=f33e953] [cursor=pointer]:
+                - /url: /products/220
+                - generic [ref=f33e954]:
+                  - img "فيندماكس 61 ملجم 30 كبسوله" [ref=f33e956]
+                  - generic [ref=f33e958]:
+                    - generic [ref=f33e959]: فيندماكس 61 ملجم 30 كبسوله
+                    - generic [ref=f33e960]:
+                      - generic [ref=f33e961]: SAR 39840.55
+                      - generic [ref=f33e962]: "4.9"
+              - link "ريكورمون 4000 وحده 6 ابر مسبقه التعبئه (ثلاجه)" [ref=f33e965] [cursor=pointer]:
+                - /url: /products/227
+                - generic [ref=f33e966]:
+                  - img "ريكورمون 4000 وحده 6 ابر مسبقه التعبئه (ثلاجه)" [ref=f33e968]
+                  - generic [ref=f33e970]:
+                    - generic [ref=f33e971]: ريكورمون 4000 وحده 6 ابر مسبقه التعبئه (ثلاجه)
+                    - generic [ref=f33e972]:
+                      - generic [ref=f33e973]: SAR 1205.15
+                      - generic [ref=f33e974]: "4.9"
+            - link "عرض الكل" [ref=f33e978] [cursor=pointer]:
+              - /url: /products
+          - generic [ref=f33e982]:
+            - generic [ref=f33e983]:
+              - generic [ref=f33e984]: Special Offers
+              - heading "Featured Collections" [level=2] [ref=f33e985]
+              - paragraph [ref=f33e986]: Hand-picked products and exclusive deals on our most-requested items
+            - generic [ref=f33e988]:
+              - button "allProducts" [ref=f33e989] [cursor=pointer]
+              - button "discounts" [ref=f33e990] [cursor=pointer]
+              - button "topRated" [ref=f33e991] [cursor=pointer]
+            - generic [ref=f33e992]:
+              - link "Amoxicillin 500mg -15% Amoxicillin 500mg Broad-spectrum antibiotic for bacterial infections SAR 25.50 SAR 30.00 عرض المنتج" [ref=f33e993] [cursor=pointer]:
+                - /url: /products/1
+                - generic [ref=f33e994]:
+                  - generic [ref=f33e995]:
+                    - img "Amoxicillin 500mg" [ref=f33e996]
+                    - generic [ref=f33e997]: "-15%"
+                    - heading "Amoxicillin 500mg" [level=3] [ref=f33e1000]
+                  - generic [ref=f33e1001]:
+                    - paragraph [ref=f33e1002]: Broad-spectrum antibiotic for bacterial infections
+                    - generic [ref=f33e1003]:
+                      - generic [ref=f33e1004]: SAR 25.50
+                      - generic [ref=f33e1005]: SAR 30.00
+                    - button "عرض المنتج" [ref=f33e1006]
+              - link "Amlodipine 5mg -21% Amlodipine 5mg Calcium channel blocker for hypertension SAR 22.00 SAR 28.00 عرض المنتج" [ref=f33e1007] [cursor=pointer]:
+                - /url: /products/4
+                - generic [ref=f33e1008]:
+                  - generic [ref=f33e1009]:
+                    - img "Amlodipine 5mg" [ref=f33e1010]
+                    - generic [ref=f33e1011]: "-21%"
+                    - heading "Amlodipine 5mg" [level=3] [ref=f33e1014]
+                  - generic [ref=f33e1015]:
+                    - paragraph [ref=f33e1016]: Calcium channel blocker for hypertension
+                    - generic [ref=f33e1017]:
+                      - generic [ref=f33e1018]: SAR 22.00
+                      - generic [ref=f33e1019]: SAR 28.00
+                    - button "عرض المنتج" [ref=f33e1020]
+              - link "Panadol Extra -14% Panadol Extra Fast relief from headaches and body pain SAR 15.50 SAR 18.00 عرض المنتج" [ref=f33e1021] [cursor=pointer]:
+                - /url: /products/5
+                - generic [ref=f33e1022]:
+                  - generic [ref=f33e1023]:
+                    - img "Panadol Extra" [ref=f33e1024]
+                    - generic [ref=f33e1025]: "-14%"
+                    - heading "Panadol Extra" [level=3] [ref=f33e1028]
+                  - generic [ref=f33e1029]:
+                    - paragraph [ref=f33e1030]: Fast relief from headaches and body pain
+                    - generic [ref=f33e1031]:
+                      - generic [ref=f33e1032]: SAR 15.50
+                      - generic [ref=f33e1033]: SAR 18.00
+                    - button "عرض المنتج" [ref=f33e1034]
+              - link "Omega-3 Fish Oil -15% Omega-3 Fish Oil Heart and brain health support SAR 55.25 SAR 65.00 عرض المنتج" [ref=f33e1035] [cursor=pointer]:
+                - /url: /products/8
+                - generic [ref=f33e1036]:
+                  - generic [ref=f33e1037]:
+                    - img "Omega-3 Fish Oil" [ref=f33e1038]
+                    - generic [ref=f33e1039]: "-15%"
+                    - heading "Omega-3 Fish Oil" [level=3] [ref=f33e1042]
+                  - generic [ref=f33e1043]:
+                    - paragraph [ref=f33e1044]: Heart and brain health support
+                    - generic [ref=f33e1045]:
+                      - generic [ref=f33e1046]: SAR 55.25
+                      - generic [ref=f33e1047]: SAR 65.00
+                    - button "عرض المنتج" [ref=f33e1048]
+              - link "Premium Diapers Size 3 -12% Premium Diapers Size 3 Ultra-absorbent diapers with 12-hour protection SAR 45.75 SAR 52.00 عرض المنتج" [ref=f33e1049] [cursor=pointer]:
+                - /url: /products/11
+                - generic [ref=f33e1050]:
+                  - generic [ref=f33e1051]:
+                    - img "Premium Diapers Size 3" [ref=f33e1052]
+                    - generic [ref=f33e1053]: "-12%"
+                    - heading "Premium Diapers Size 3" [level=3] [ref=f33e1056]
+                  - generic [ref=f33e1057]:
+                    - paragraph [ref=f33e1058]: Ultra-absorbent diapers with 12-hour protection
+                    - generic [ref=f33e1059]:
+                      - generic [ref=f33e1060]: SAR 45.75
+                      - generic [ref=f33e1061]: SAR 52.00
+                    - button "عرض المنتج" [ref=f33e1062]
+              - link "Anti-Aging Face Cream -21% Anti-Aging Face Cream Reduces wrinkles and fine lines SAR 75.00 SAR 95.00 عرض المنتج" [ref=f33e1063] [cursor=pointer]:
+                - /url: /products/12
+                - generic [ref=f33e1064]:
+                  - generic [ref=f33e1065]:
+                    - img "Anti-Aging Face Cream" [ref=f33e1066]
+                    - generic [ref=f33e1067]: "-21%"
+                    - heading "Anti-Aging Face Cream" [level=3] [ref=f33e1070]
+                  - generic [ref=f33e1071]:
+                    - paragraph [ref=f33e1072]: Reduces wrinkles and fine lines
+                    - generic [ref=f33e1073]:
+                      - generic [ref=f33e1074]: SAR 75.00
+                      - generic [ref=f33e1075]: SAR 95.00
+                    - button "عرض المنتج" [ref=f33e1076]
+              - link "Azithromycin 250mg Azithromycin 250mg Macrolide antibiotic for respiratory infections SAR 35.75 عرض المنتج" [ref=f33e1077] [cursor=pointer]:
+                - /url: /products/2
+                - generic [ref=f33e1078]:
+                  - generic [ref=f33e1079]:
+                    - img "Azithromycin 250mg" [ref=f33e1080]
+                    - heading "Azithromycin 250mg" [level=3] [ref=f33e1083]
+                  - generic [ref=f33e1084]:
+                    - paragraph [ref=f33e1085]: Macrolide antibiotic for respiratory infections
+                    - generic [ref=f33e1086]: SAR 35.75
+                    - button "عرض المنتج" [ref=f33e1088]
+              - link "Lisinopril 10mg Lisinopril 10mg ACE inhibitor for high blood pressure SAR 18.25 عرض المنتج" [ref=f33e1089] [cursor=pointer]:
+                - /url: /products/3
+                - generic [ref=f33e1090]:
+                  - generic [ref=f33e1091]:
+                    - img "Lisinopril 10mg" [ref=f33e1092]
+                    - heading "Lisinopril 10mg" [level=3] [ref=f33e1095]
+                  - generic [ref=f33e1096]:
+                    - paragraph [ref=f33e1097]: ACE inhibitor for high blood pressure
+                    - generic [ref=f33e1098]: SAR 18.25
+                    - button "عرض المنتج" [ref=f33e1100]
+              - link "Ibuprofen 400mg Ibuprofen 400mg Anti-inflammatory pain reliever SAR 12.75 عرض المنتج" [ref=f33e1101] [cursor=pointer]:
+                - /url: /products/6
+                - generic [ref=f33e1102]:
+                  - generic [ref=f33e1103]:
+                    - img "Ibuprofen 400mg" [ref=f33e1104]
+                    - heading "Ibuprofen 400mg" [level=3] [ref=f33e1107]
+                  - generic [ref=f33e1108]:
+                    - paragraph [ref=f33e1109]: Anti-inflammatory pain reliever
+                    - generic [ref=f33e1110]: SAR 12.75
+                    - button "عرض المنتج" [ref=f33e1112]
+              - link "Vitamin C 1000mg Vitamin C 1000mg Immune system support with high-dose Vitamin C SAR 45.00 عرض المنتج" [ref=f33e1113] [cursor=pointer]:
+                - /url: /products/7
+                - generic [ref=f33e1114]:
+                  - generic [ref=f33e1115]:
+                    - img "Vitamin C 1000mg" [ref=f33e1116]
+                    - heading "Vitamin C 1000mg" [level=3] [ref=f33e1119]
+                  - generic [ref=f33e1120]:
+                    - paragraph [ref=f33e1121]: Immune system support with high-dose Vitamin C
+                    - generic [ref=f33e1122]: SAR 45.00
+                    - button "عرض المنتج" [ref=f33e1124]
+          - generic [ref=f33e1126]:
+            - generic [ref=f33e1127]:
+              - generic [ref=f33e1128]: Our Services
+              - heading "Expert Healthcare Services" [level=2] [ref=f33e1129]
+              - paragraph [ref=f33e1130]: Professional pharmaceutical services to support your health journey
+            - generic [ref=f33e1131]:
+              - link "Online Consultation" [ref=f33e1132] [cursor=pointer]:
+                - /url: /services/consultations
+                - generic [ref=f33e1135]:
+                  - generic [ref=f33e1136]:
+                    - img "Online Consultation" [ref=f33e1137]
+                    - generic [ref=f33e1139]: Online Consultation
+                  - generic [ref=f33e1140]:
+                    - heading "Online Consultation" [level=3] [ref=f33e1141]
+                    - paragraph [ref=f33e1142]: Consult with certified pharmacists and doctors online
+                    - generic [ref=f33e1143]: Learn More
+              - link "Prescription Delivery" [ref=f33e1146] [cursor=pointer]:
+                - /url: /services/prescription-delivery
+                - generic [ref=f33e1149]:
+                  - generic [ref=f33e1150]:
+                    - img "Prescription Delivery" [ref=f33e1151]
+                    - generic [ref=f33e1153]: Prescription Delivery
+                  - generic [ref=f33e1154]:
+                    - heading "Prescription Delivery" [level=3] [ref=f33e1155]
+                    - paragraph [ref=f33e1156]: Fast and secure delivery of your prescriptions
+                    - generic [ref=f33e1157]: Learn More
+              - link "Health Checkups" [ref=f33e1160] [cursor=pointer]:
+                - /url: /services/health-checks
+                - generic [ref=f33e1163]:
+                  - generic [ref=f33e1164]:
+                    - img "Health Checkups" [ref=f33e1165]
+                    - generic [ref=f33e1167]: Health Checkups
+                  - generic [ref=f33e1168]:
+                    - heading "Health Checkups" [level=3] [ref=f33e1169]
+                    - paragraph [ref=f33e1170]: Regular health monitoring and checkup services
+                    - generic [ref=f33e1171]: Learn More
+              - link "Medication Reminders" [ref=f33e1174] [cursor=pointer]:
+                - /url: /services
+                - generic [ref=f33e1177]:
+                  - generic [ref=f33e1178]:
+                    - img "Medication Reminders" [ref=f33e1179]
+                    - generic [ref=f33e1181]: Medication Reminders
+                  - generic [ref=f33e1182]:
+                    - heading "Medication Reminders" [level=3] [ref=f33e1183]
+                    - paragraph [ref=f33e1184]: Never miss your medication with smart reminders
+                    - generic [ref=f33e1185]: Learn More
+          - generic [ref=f33e1190]:
+            - generic [ref=f33e1191]:
+              - heading "تسوق حسب احتياجك" [level=2] [ref=f33e1192]
+              - paragraph [ref=f33e1193]: أقسام متكاملة تغطي كل احتياجاتك الصحية
+            - generic [ref=f33e1194]:
+              - link [ref=f33e1195] [cursor=pointer]:
+                - /url: /products
+                - img "awon ad 4" [ref=f33e1196]
+                - generic [ref=f33e1197]:
+                  - heading "أدوية بوصفة طبية" [level=3] [ref=f33e1198]
+                  - paragraph [ref=f33e1199]: صرف آمن وموثوق
+                  - generic [ref=f33e1200]: تسوق الآن
+              - link [ref=f33e1203] [cursor=pointer]:
+                - /url: /products
+                - img "awon ad 5" [ref=f33e1204]
+                - generic [ref=f33e1205]:
+                  - heading "الأم والطفل" [level=3] [ref=f33e1206]
+                  - paragraph [ref=f33e1207]: كل احتياجات العائلة
+                  - generic [ref=f33e1208]: تسوق الآن
+              - link [ref=f33e1211] [cursor=pointer]:
+                - /url: /products
+                - img "awon ad 6" [ref=f33e1212]
+                - generic [ref=f33e1213]:
+                  - heading "مستلزمات طبية" [level=3] [ref=f33e1214]
+                  - paragraph [ref=f33e1215]: جودة معتمدة
+                  - generic [ref=f33e1216]: تسوق الآن
+          - generic [ref=f33e1221]:
+            - generic [ref=f33e1222]:
+              - generic [ref=f33e1223]: Prescription Services
+              - heading "Upload Your Prescription" [level=2] [ref=f33e1224]
+              - paragraph [ref=f33e1225]: Easy 3-step process to get your medications delivered
+            - generic [ref=f33e1227]:
+              - generic [ref=f33e1229]:
+                - generic [ref=f33e1230]: "1"
+                - generic [ref=f33e1231]:
+                  - generic [ref=f33e1232]: Upload
+                  - generic [ref=f33e1233]: Upload your prescription
+              - generic [ref=f33e1236]:
+                - generic [ref=f33e1237]: "2"
+                - generic [ref=f33e1238]:
+                  - generic [ref=f33e1239]: Details
+                  - generic [ref=f33e1240]: Add contact details
+              - generic [ref=f33e1243]:
+                - generic [ref=f33e1244]: "3"
+                - generic [ref=f33e1245]:
+                  - generic [ref=f33e1246]: Confirm
+                  - generic [ref=f33e1247]: Review and confirm
+            - generic [ref=f33e1250]:
+              - heading "Drop your prescription here" [level=3] [ref=f33e1253]
+              - paragraph [ref=f33e1254]: or click to browse files
+              - generic [ref=f33e1255] [cursor=pointer]: Choose File
+              - paragraph [ref=f33e1257]: "Supported formats: JPG, PNG, PDF (Max 10MB)"
+          - generic [ref=f33e1259]:
+            - generic [ref=f33e1260]:
+              - generic [ref=f33e1261]: Why Awon?
+              - heading "Why Choose Awon Pharmacy?" [level=2] [ref=f33e1262]
+              - paragraph [ref=f33e1263]: Your trusted healthcare partner with uncompromising quality and service
+            - generic [ref=f33e1264]:
+              - generic [ref=f33e1265]:
+                - heading "Licensed Pharmacy" [level=3] [ref=f33e1268]
+                - paragraph [ref=f33e1269]: Fully licensed and regulated by health authorities
+              - generic [ref=f33e1270]:
+                - heading "Fast Delivery" [level=3] [ref=f33e1273]
+                - paragraph [ref=f33e1274]: Same-day delivery available in major cities
+              - generic [ref=f33e1275]:
+                - heading "Genuine Products" [level=3] [ref=f33e1278]
+                - paragraph [ref=f33e1279]: All products sourced directly from manufacturers
+              - generic [ref=f33e1280]:
+                - heading "Expert Pharmacists" [level=3] [ref=f33e1283]
+                - paragraph [ref=f33e1284]: Qualified pharmacists available for consultation
+              - generic [ref=f33e1285]:
+                - heading "Secure & Private" [level=3] [ref=f33e1288]
+                - paragraph [ref=f33e1289]: Your health information is protected and confidential
+              - generic [ref=f33e1290]:
+                - heading "Best Prices" [level=3] [ref=f33e1293]
+                - paragraph [ref=f33e1294]: Competitive pricing with regular discounts and offers
+          - generic [ref=f33e1297]:
+            - generic [ref=f33e1298]:
+              - heading "لماذا عون؟" [level=2] [ref=f33e1299]
+              - paragraph [ref=f33e1300]: أصلية، موثوقة، وتصلك أينما كنت
+            - link [ref=f33e1302] [cursor=pointer]:
+              - /url: /products
+              - img "awon ad 7" [ref=f33e1303]
+              - generic [ref=f33e1304]:
+                - heading "العناية بالبشرة" [level=3] [ref=f33e1305]
+                - paragraph [ref=f33e1306]: وصول سريع حتى باب المنزل
+                - generic [ref=f33e1307]: تسوق الآن
+          - generic [ref=f33e1315]:
+            - heading "ابقى محدث" [level=2] [ref=f33e1316]
+            - paragraph [ref=f33e1317]: اشترك للحصول على عروض خاصة، نصائح صحية، وتحديثات منتجات جديدة
+            - generic [ref=f33e1318]:
+              - generic [ref=f33e1319]: Email address
+              - textbox "Email address" [ref=f33e1320]:
+                - /placeholder: أدخل بريدك الإلكتروني
+              - button "اشتراك" [ref=f33e1321] [cursor=pointer]
+            - generic [ref=f33e1322]:
+              - generic [ref=f33e1323]: حصريات وعروض خاصة
+              - generic [ref=f33e1329]: نصائح صحية أسبوعية
+              - generic [ref=f33e1334]: عروض وتخفيضات جديدة
+            - paragraph [ref=f33e1339]: نلتزم بخصوصيتك. إلغاء الاشتراك في أي وقت.
+          - button "ثبّت تطبيق عون" [ref=f33e1341] [cursor=pointer]
+    - contentinfo [ref=f33e1344]:
+      - region [ref=f33e1346]:
+        - generic [ref=f33e1347]:
+          - generic [ref=f33e1348]:
+            - generic [ref=f33e1349]: تصفح جميع الفئات
+            - heading "تسوق حسب الفئة" [level=2] [ref=f33e1355]
+            - paragraph [ref=f33e1356]: استكشف مجموعتنا الكاملة عبر أكثر من 120 فئة فرعية في مكان واحد
+          - generic [ref=f33e1357]:
+            - generic [ref=f33e1358]:
+              - link "العطور" [ref=f33e1359] [cursor=pointer]:
+                - /url: /products?category=beauty
+              - list [ref=f33e1364]:
+                - listitem [ref=f33e1365]:
+                  - link "عطور نسائية" [ref=f33e1366] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=women-perfumes&name=%D8%B9%D8%B7%D9%88%D8%B1%20%D9%86%D8%B3%D8%A7%D8%A6%D9%8A%D8%A9
+                - listitem [ref=f33e1368]:
+                  - link "عطور للرجال" [ref=f33e1369] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=men-perfumes&name=%D8%B9%D8%B7%D9%88%D8%B1%20%D9%84%D9%84%D8%B1%D8%AC%D8%A7%D9%84
+                - listitem [ref=f33e1371]:
+                  - link "عطور للجنسين" [ref=f33e1372] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=unisex-perfumes&name=%D8%B9%D8%B7%D9%88%D8%B1%20%D9%84%D9%84%D8%AC%D9%86%D8%B3%D9%8A%D9%86
+                - listitem [ref=f33e1374]:
+                  - link "عطور شرقية" [ref=f33e1375] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=oriental-perfumes&name=%D8%B9%D8%B7%D9%88%D8%B1%20%D8%B4%D8%B1%D9%82%D9%8A%D8%A9
+                - listitem [ref=f33e1377]:
+                  - link "عطور الأطفال" [ref=f33e1378] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=kids-perfumes&name=%D8%B9%D8%B7%D9%88%D8%B1%20%D8%A7%D9%84%D8%A3%D8%B7%D9%81%D8%A7%D9%84
+                - listitem [ref=f33e1380]:
+                  - link "مجموعة هدايا" [ref=f33e1381] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=gift-sets&name=%D9%85%D8%AC%D9%85%D9%88%D8%B9%D8%A9%20%D9%87%D8%AF%D8%A7%D9%8A%D8%A7
+                - listitem [ref=f33e1383]:
+                  - link "عطور فاخرة" [ref=f33e1384] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=luxury-perfumes&name=%D8%B9%D8%B7%D9%88%D8%B1%20%D9%81%D8%A7%D8%AE%D8%B1%D8%A9
+                - listitem [ref=f33e1386]:
+                  - link "معطر الشعر" [ref=f33e1387] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=hair-mist&name=%D9%85%D8%B9%D8%B7%D8%B1%20%D8%A7%D9%84%D8%B4%D8%B9%D8%B1
+            - generic [ref=f33e1389]:
+              - link "المكياج" [ref=f33e1390] [cursor=pointer]:
+                - /url: /products?category=beauty
+              - list [ref=f33e1395]:
+                - listitem [ref=f33e1396]:
+                  - link "أحمر شفاه" [ref=f33e1397] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=lipstick&name=%D8%A3%D8%AD%D9%85%D8%B1%20%D8%B4%D9%81%D8%A7%D9%87
+                - listitem [ref=f33e1399]:
+                  - link "مكياج العيون" [ref=f33e1400] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=eye-makeup&name=%D9%85%D9%83%D9%8A%D8%A7%D8%AC%20%D8%A7%D9%84%D8%B9%D9%8A%D9%88%D9%86
+                - listitem [ref=f33e1402]:
+                  - link "مكياج الوجه" [ref=f33e1403] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=face-makeup&name=%D9%85%D9%83%D9%8A%D8%A7%D8%AC%20%D8%A7%D9%84%D9%88%D8%AC%D9%87
+                - listitem [ref=f33e1405]:
+                  - link "تجميل الأظافر" [ref=f33e1406] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=nail-care&name=%D8%AA%D8%AC%D9%85%D9%8A%D9%84%20%D8%A7%D9%84%D8%A3%D8%B8%D8%A7%D9%81%D8%B1
+                - listitem [ref=f33e1408]:
+                  - link "الرموش" [ref=f33e1409] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=eyelashes&name=%D8%A7%D9%84%D8%B1%D9%85%D9%88%D8%B4
+                - listitem [ref=f33e1411]:
+                  - link "عدسات لاصقة" [ref=f33e1412] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=Contact%20Lenses&name=%D8%B9%D8%AF%D8%B3%D8%A7%D8%AA%20%D9%84%D8%A7%D8%B5%D9%82%D8%A9
+                - listitem [ref=f33e1414]:
+                  - link "أدوات المكياج" [ref=f33e1415] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=makeup-tools&name=%D8%A3%D8%AF%D9%88%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D9%83%D9%8A%D8%A7%D8%AC
+                - listitem [ref=f33e1417]:
+                  - link "أقراط" [ref=f33e1418] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=earrings&name=%D8%A3%D9%82%D8%B1%D8%A7%D8%B7
+                - listitem [ref=f33e1420]:
+                  - link "اكسسوارات التجميل" [ref=f33e1421] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=beauty-accessories&name=%D8%A7%D9%83%D8%B3%D8%B3%D9%88%D8%A7%D8%B1%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%AC%D9%85%D9%8A%D9%84
+            - generic [ref=f33e1423]:
+              - link "العناية بالأطفال والحفاضات" [ref=f33e1424] [cursor=pointer]:
+                - /url: /products?category=baby
+              - list [ref=f33e1429]:
+                - listitem [ref=f33e1430]:
+                  - link "الحفاضات العادية" [ref=f33e1431] [cursor=pointer]:
+                    - /url: /products?category=baby&subcategory=Diapers%20%26%20Wipes&name=%D8%A7%D9%84%D8%AD%D9%81%D8%A7%D8%B6%D8%A7%D8%AA%20%D8%A7%D9%84%D8%B9%D8%A7%D8%AF%D9%8A%D8%A9
+                - listitem [ref=f33e1433]:
+                  - link "حفاضات كلوت" [ref=f33e1434] [cursor=pointer]:
+                    - /url: /products?category=baby&subcategory=Diapers%20%26%20Wipes&name=%D8%AD%D9%81%D8%A7%D8%B6%D8%A7%D8%AA%20%D9%83%D9%84%D9%88%D8%AA
+                - listitem [ref=f33e1436]:
+                  - link "حفاضات العناية الفائقة" [ref=f33e1437] [cursor=pointer]:
+                    - /url: /products?category=baby&subcategory=Diapers%20%26%20Wipes&name=%D8%AD%D9%81%D8%A7%D8%B6%D8%A7%D8%AA%20%D8%A7%D9%84%D8%B9%D9%86%D8%A7%D9%8A%D8%A9%20%D8%A7%D9%84%D9%81%D8%A7%D8%A6%D9%82%D8%A9
+                - listitem [ref=f33e1439]:
+                  - link "تغيير الحفاض" [ref=f33e1440] [cursor=pointer]:
+                    - /url: /products?category=baby&subcategory=Diapers%20%26%20Wipes&name=%D8%AA%D8%BA%D9%8A%D9%8A%D8%B1%20%D8%A7%D9%84%D8%AD%D9%81%D8%A7%D8%B6
+                - listitem [ref=f33e1442]:
+                  - link "شامبو أطفال" [ref=f33e1443] [cursor=pointer]:
+                    - /url: /products?category=baby&subcategory=Baby%20Skincare&name=%D8%B4%D8%A7%D9%85%D8%A8%D9%88%20%D8%A3%D8%B7%D9%81%D8%A7%D9%84
+                - listitem [ref=f33e1445]:
+                  - link "العناية ببشرة الأطفال" [ref=f33e1446] [cursor=pointer]:
+                    - /url: /products?category=baby&subcategory=Baby%20Skincare&name=%D8%A7%D9%84%D8%B9%D9%86%D8%A7%D9%8A%D8%A9%20%D8%A8%D8%A8%D8%B4%D8%B1%D8%A9%20%D8%A7%D9%84%D8%A3%D8%B7%D9%81%D8%A7%D9%84
+                - listitem [ref=f33e1448]:
+                  - link "العناية بالأطفال (+3 سنوات)" [ref=f33e1449] [cursor=pointer]:
+                    - /url: /products?category=baby&subcategory=toddler-care&name=%D8%A7%D9%84%D8%B9%D9%86%D8%A7%D9%8A%D8%A9%20%D8%A8%D8%A7%D9%84%D8%A3%D8%B7%D9%81%D8%A7%D9%84%20(%2B3%20%D8%B3%D9%86%D9%88%D8%A7%D8%AA)
+                - listitem [ref=f33e1451]:
+                  - link "مناديل مبللة للأطفال" [ref=f33e1452] [cursor=pointer]:
+                    - /url: /products?category=baby&subcategory=Diapers%20%26%20Wipes&name=%D9%85%D9%86%D8%A7%D8%AF%D9%8A%D9%84%20%D9%85%D8%A8%D9%84%D9%84%D8%A9%20%D9%84%D9%84%D8%A3%D8%B7%D9%81%D8%A7%D9%84
+                - listitem [ref=f33e1454]:
+                  - link "نظافة الأطفال" [ref=f33e1455] [cursor=pointer]:
+                    - /url: /products?category=baby&subcategory=Diapers%20%26%20Wipes&name=%D9%86%D8%B8%D8%A7%D9%81%D8%A9%20%D8%A7%D9%84%D8%A3%D8%B7%D9%81%D8%A7%D9%84
+            - generic [ref=f33e1457]:
+              - link "الفيتامينات" [ref=f33e1458] [cursor=pointer]:
+                - /url: /products?category=vitamins
+              - list [ref=f33e1463]:
+                - listitem [ref=f33e1464]:
+                  - link "فيتامينات الشعر" [ref=f33e1465] [cursor=pointer]:
+                    - /url: /products?category=vitamins&subcategory=hair-vitamins&name=%D9%81%D9%8A%D8%AA%D8%A7%D9%85%D9%8A%D9%86%D8%A7%D8%AA%20%D8%A7%D9%84%D8%B4%D8%B9%D8%B1
+                - listitem [ref=f33e1467]:
+                  - link "إشراقة البشرة" [ref=f33e1468] [cursor=pointer]:
+                    - /url: /products?category=vitamins&subcategory=skin-radiance&name=%D8%A5%D8%B4%D8%B1%D8%A7%D9%82%D8%A9%20%D8%A7%D9%84%D8%A8%D8%B4%D8%B1%D8%A9
+                - listitem [ref=f33e1470]:
+                  - link "فيتامينات متعددة" [ref=f33e1471] [cursor=pointer]:
+                    - /url: /products?category=vitamins&subcategory=Multivitamins&name=%D9%81%D9%8A%D8%AA%D8%A7%D9%85%D9%8A%D9%86%D8%A7%D8%AA%20%D9%85%D8%AA%D8%B9%D8%AF%D8%AF%D8%A9
+                - listitem [ref=f33e1473]:
+                  - link "التحكم في الوزن" [ref=f33e1474] [cursor=pointer]:
+                    - /url: /products?category=vitamins&subcategory=weight-management&name=%D8%A7%D9%84%D8%AA%D8%AD%D9%83%D9%85%20%D9%81%D9%8A%20%D8%A7%D9%84%D9%88%D8%B2%D9%86
+                - listitem [ref=f33e1476]:
+                  - link "رعاية الحمل" [ref=f33e1477] [cursor=pointer]:
+                    - /url: /products?category=vitamins&subcategory=Maternity%20Care&name=%D8%B1%D8%B9%D8%A7%D9%8A%D8%A9%20%D8%A7%D9%84%D8%AD%D9%85%D9%84
+                - listitem [ref=f33e1479]:
+                  - link "صحة الأطفال" [ref=f33e1480] [cursor=pointer]:
+                    - /url: /products?category=vitamins&subcategory=kids-health&name=%D8%B5%D8%AD%D8%A9%20%D8%A7%D9%84%D8%A3%D8%B7%D9%81%D8%A7%D9%84
+                - listitem [ref=f33e1482]:
+                  - link "مساعدات النوم" [ref=f33e1483] [cursor=pointer]:
+                    - /url: /products?category=vitamins&subcategory=Sleep%20Aids&name=%D9%85%D8%B3%D8%A7%D8%B9%D8%AF%D8%A7%D8%AA%20%D8%A7%D9%84%D9%86%D9%88%D9%85
+                - listitem [ref=f33e1485]:
+                  - link "صحة القلب" [ref=f33e1486] [cursor=pointer]:
+                    - /url: /products?category=vitamins&subcategory=Omega-3&name=%D8%B5%D8%AD%D8%A9%20%D8%A7%D9%84%D9%82%D9%84%D8%A8
+                - listitem [ref=f33e1488]:
+                  - link "رعاية مرضى السكري" [ref=f33e1489] [cursor=pointer]:
+                    - /url: /products?category=vitamins&subcategory=Diabetes%20Care&name=%D8%B1%D8%B9%D8%A7%D9%8A%D8%A9%20%D9%85%D8%B1%D8%B6%D9%89%20%D8%A7%D9%84%D8%B3%D9%83%D8%B1%D9%8A
+            - generic [ref=f33e1491]:
+              - link "العناية بالبشرة" [ref=f33e1492] [cursor=pointer]:
+                - /url: /products?category=beauty
+              - list [ref=f33e1497]:
+                - listitem [ref=f33e1498]:
+                  - link "مرطب البشرة" [ref=f33e1499] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=Skincare%20Products&name=%D9%85%D8%B1%D8%B7%D8%A8%20%D8%A7%D9%84%D8%A8%D8%B4%D8%B1%D8%A9
+                - listitem [ref=f33e1501]:
+                  - link "غسول البشرة" [ref=f33e1502] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=Skincare%20Products&name=%D8%BA%D8%B3%D9%88%D9%84%20%D8%A7%D9%84%D8%A8%D8%B4%D8%B1%D8%A9
+                - listitem [ref=f33e1504]:
+                  - link "واقي شمس" [ref=f33e1505] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=Sunscreen&name=%D9%88%D8%A7%D9%82%D9%8A%20%D8%B4%D9%85%D8%B3
+                - listitem [ref=f33e1507]:
+                  - link "تفتيح البشرة" [ref=f33e1508] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=Skincare%20Products&name=%D8%AA%D9%81%D8%AA%D9%8A%D8%AD%20%D8%A7%D9%84%D8%A8%D8%B4%D8%B1%D8%A9
+                - listitem [ref=f33e1510]:
+                  - link "سيروم البشرة" [ref=f33e1511] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=Skincare%20Products&name=%D8%B3%D9%8A%D8%B1%D9%88%D9%85%20%D8%A7%D9%84%D8%A8%D8%B4%D8%B1%D8%A9
+                - listitem [ref=f33e1513]:
+                  - link "الجمال الكوري" [ref=f33e1514] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=Skincare%20Products&name=%D8%A7%D9%84%D8%AC%D9%85%D8%A7%D9%84%20%D8%A7%D9%84%D9%83%D9%88%D8%B1%D9%8A
+                - listitem [ref=f33e1516]:
+                  - link "ماسك البشرة" [ref=f33e1517] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=Skincare%20Products&name=%D9%85%D8%A7%D8%B3%D9%83%20%D8%A7%D9%84%D8%A8%D8%B4%D8%B1%D8%A9
+                - listitem [ref=f33e1519]:
+                  - link "منتجات العناية الطبيعية" [ref=f33e1520] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=Skincare%20Products&name=%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%B9%D9%86%D8%A7%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A%D8%A9
+                - listitem [ref=f33e1522]:
+                  - link "ادوات العناية بالبشرة" [ref=f33e1523] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=Skincare%20Products&name=%D8%A7%D8%AF%D9%88%D8%A7%D8%AA%20%D8%A7%D9%84%D8%B9%D9%86%D8%A7%D9%8A%D8%A9%20%D8%A8%D8%A7%D9%84%D8%A8%D8%B4%D8%B1%D8%A9
+            - generic [ref=f33e1525]:
+              - link "مستلزمات الأطفال" [ref=f33e1526] [cursor=pointer]:
+                - /url: /products?category=baby
+              - list [ref=f33e1531]:
+                - listitem [ref=f33e1532]:
+                  - link "عربات الأطفال" [ref=f33e1533] [cursor=pointer]:
+                    - /url: /products?category=baby&subcategory=strollers&name=%D8%B9%D8%B1%D8%A8%D8%A7%D8%AA%20%D8%A7%D9%84%D8%A3%D8%B7%D9%81%D8%A7%D9%84
+                - listitem [ref=f33e1535]:
+                  - link "سلامة الطفل" [ref=f33e1536] [cursor=pointer]:
+                    - /url: /products?category=baby&subcategory=baby-safety&name=%D8%B3%D9%84%D8%A7%D9%85%D8%A9%20%D8%A7%D9%84%D8%B7%D9%81%D9%84
+                - listitem [ref=f33e1538]:
+                  - link "ألعاب الأطفال" [ref=f33e1539] [cursor=pointer]:
+                    - /url: /products?category=baby&subcategory=baby-toys&name=%D8%A3%D9%84%D8%B9%D8%A7%D8%A8%20%D8%A7%D9%84%D8%A3%D8%B7%D9%81%D8%A7%D9%84
+                - listitem [ref=f33e1541]:
+                  - link "حمالة الأطفال" [ref=f33e1542] [cursor=pointer]:
+                    - /url: /products?category=baby&subcategory=baby-carriers&name=%D8%AD%D9%85%D8%A7%D9%84%D8%A9%20%D8%A7%D9%84%D8%A3%D8%B7%D9%81%D8%A7%D9%84
+                - listitem [ref=f33e1544]:
+                  - link "مقعد سيارة" [ref=f33e1545] [cursor=pointer]:
+                    - /url: /products?category=baby&subcategory=car-seat&name=%D9%85%D9%82%D8%B9%D8%AF%20%D8%B3%D9%8A%D8%A7%D8%B1%D8%A9
+                - listitem [ref=f33e1547]:
+                  - link "مشاية الأطفال" [ref=f33e1548] [cursor=pointer]:
+                    - /url: /products?category=baby&subcategory=baby-walkers&name=%D9%85%D8%B4%D8%A7%D9%8A%D8%A9%20%D8%A7%D9%84%D8%A3%D8%B7%D9%81%D8%A7%D9%84
+                - listitem [ref=f33e1550]:
+                  - link "مراجيح وهزازات للأطفال" [ref=f33e1551] [cursor=pointer]:
+                    - /url: /products?category=baby&subcategory=swings-bouncers&name=%D9%85%D8%B1%D8%A7%D8%AC%D9%8A%D8%AD%20%D9%88%D9%87%D8%B2%D8%A7%D8%B2%D8%A7%D8%AA%20%D9%84%D9%84%D8%A3%D8%B7%D9%81%D8%A7%D9%84
+                - listitem [ref=f33e1553]:
+                  - link "سرير الأطفال" [ref=f33e1554] [cursor=pointer]:
+                    - /url: /products?category=baby&subcategory=baby-cribs&name=%D8%B3%D8%B1%D9%8A%D8%B1%20%D8%A7%D9%84%D8%A3%D8%B7%D9%81%D8%A7%D9%84
+            - generic [ref=f33e1556]:
+              - link "العناية الشخصية" [ref=f33e1557] [cursor=pointer]:
+                - /url: /products?category=beauty
+              - list [ref=f33e1562]:
+                - listitem [ref=f33e1563]:
+                  - link "مزيلات العرق" [ref=f33e1564] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=deodorants&name=%D9%85%D8%B2%D9%8A%D9%84%D8%A7%D8%AA%20%D8%A7%D9%84%D8%B9%D8%B1%D9%82
+                - listitem [ref=f33e1566]:
+                  - link "إزالة الشعر" [ref=f33e1567] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=hair-removal&name=%D8%A5%D8%B2%D8%A7%D9%84%D8%A9%20%D8%A7%D9%84%D8%B4%D8%B9%D8%B1
+                - listitem [ref=f33e1569]:
+                  - link "الصحة الجنسية" [ref=f33e1570] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=sexual-health&name=%D8%A7%D9%84%D8%B5%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AC%D9%86%D8%B3%D9%8A%D8%A9
+                - listitem [ref=f33e1572]:
+                  - link "العناية بالفم و الأسنان" [ref=f33e1573] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=Oral%20Care&name=%D8%A7%D9%84%D8%B9%D9%86%D8%A7%D9%8A%D8%A9%20%D8%A8%D8%A7%D9%84%D9%81%D9%85%20%D9%88%20%D8%A7%D9%84%D8%A3%D8%B3%D9%86%D8%A7%D9%86
+                - listitem [ref=f33e1575]:
+                  - link "العناية النسائية" [ref=f33e1576] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=feminine-care&name=%D8%A7%D9%84%D8%B9%D9%86%D8%A7%D9%8A%D8%A9%20%D8%A7%D9%84%D9%86%D8%B3%D8%A7%D8%A6%D9%8A%D8%A9
+                - listitem [ref=f33e1578]:
+                  - link "العناية بالجسم و الإستحمام" [ref=f33e1579] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=Body%20Care&name=%D8%A7%D9%84%D8%B9%D9%86%D8%A7%D9%8A%D8%A9%20%D8%A8%D8%A7%D9%84%D8%AC%D8%B3%D9%85%20%D9%88%20%D8%A7%D9%84%D8%A5%D8%B3%D8%AA%D8%AD%D9%85%D8%A7%D9%85
+                - listitem [ref=f33e1581]:
+                  - link "النظافة الشخيصة" [ref=f33e1582] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=personal-hygiene&name=%D8%A7%D9%84%D9%86%D8%B8%D8%A7%D9%81%D8%A9%20%D8%A7%D9%84%D8%B4%D8%AE%D9%8A%D8%B5%D8%A9
+                - listitem [ref=f33e1584]:
+                  - link "شفرات الحلاقة" [ref=f33e1585] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=razor-blades&name=%D8%B4%D9%81%D8%B1%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AD%D9%84%D8%A7%D9%82%D8%A9
+            - generic [ref=f33e1587]:
+              - link "العناية بالشعر" [ref=f33e1588] [cursor=pointer]:
+                - /url: /products?category=beauty
+              - list [ref=f33e1593]:
+                - listitem [ref=f33e1594]:
+                  - link "الشامبو" [ref=f33e1595] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=Hair%20Care&name=%D8%A7%D9%84%D8%B4%D8%A7%D9%85%D8%A8%D9%88
+                - listitem [ref=f33e1597]:
+                  - link "البلسم" [ref=f33e1598] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=Hair%20Care&name=%D8%A7%D9%84%D8%A8%D9%84%D8%B3%D9%85
+                - listitem [ref=f33e1600]:
+                  - link "معالجات الشعر" [ref=f33e1601] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=Hair%20Care&name=%D9%85%D8%B9%D8%A7%D9%84%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%B4%D8%B9%D8%B1
+                - listitem [ref=f33e1603]:
+                  - link "منتجات الشعر الطبيعة" [ref=f33e1604] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=Hair%20Care&name=%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%B4%D8%B9%D8%B1%20%D8%A7%D9%84%D8%B7%D8%A8%D9%8A%D8%B9%D8%A9
+                - listitem [ref=f33e1606]:
+                  - link "صبغة الشعر" [ref=f33e1607] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=Hair%20Care&name=%D8%B5%D8%A8%D8%BA%D8%A9%20%D8%A7%D9%84%D8%B4%D8%B9%D8%B1
+                - listitem [ref=f33e1609]:
+                  - link "علاج الشعر وفروة الرأس" [ref=f33e1610] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=Hair%20Care&name=%D8%B9%D9%84%D8%A7%D8%AC%20%D8%A7%D9%84%D8%B4%D8%B9%D8%B1%20%D9%88%D9%81%D8%B1%D9%88%D8%A9%20%D8%A7%D9%84%D8%B1%D8%A3%D8%B3
+                - listitem [ref=f33e1612]:
+                  - link "تصفيف الشعر" [ref=f33e1613] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=Hair%20Care&name=%D8%AA%D8%B5%D9%81%D9%8A%D9%81%20%D8%A7%D9%84%D8%B4%D8%B9%D8%B1
+                - listitem [ref=f33e1615]:
+                  - link "زيت و سيروم الشعر" [ref=f33e1616] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=Hair%20Care&name=%D8%B2%D9%8A%D8%AA%20%D9%88%20%D8%B3%D9%8A%D8%B1%D9%88%D9%85%20%D8%A7%D9%84%D8%B4%D8%B9%D8%B1
+                - listitem [ref=f33e1618]:
+                  - link "أجهزة تصفيف الشعر" [ref=f33e1619] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=Hair%20Care&name=%D8%A3%D8%AC%D9%87%D8%B2%D8%A9%20%D8%AA%D8%B5%D9%81%D9%8A%D9%81%20%D8%A7%D9%84%D8%B4%D8%B9%D8%B1
+            - generic [ref=f33e1621]:
+              - link "حليب وطعام الأطفال" [ref=f33e1622] [cursor=pointer]:
+                - /url: /products?category=baby
+              - list [ref=f33e1627]:
+                - listitem [ref=f33e1628]:
+                  - link "حليب الأطفال" [ref=f33e1629] [cursor=pointer]:
+                    - /url: /products?category=baby&subcategory=Baby%20Formula&name=%D8%AD%D9%84%D9%8A%D8%A8%20%D8%A7%D9%84%D8%A3%D8%B7%D9%81%D8%A7%D9%84
+                - listitem [ref=f33e1631]:
+                  - link "طعام الأطفال" [ref=f33e1632] [cursor=pointer]:
+                    - /url: /products?category=baby&subcategory=Baby%20Formula&name=%D8%B7%D8%B9%D8%A7%D9%85%20%D8%A7%D9%84%D8%A3%D8%B7%D9%81%D8%A7%D9%84
+                - listitem [ref=f33e1634]:
+                  - link "رضاعات" [ref=f33e1635] [cursor=pointer]:
+                    - /url: /products?category=baby&subcategory=baby-bottles&name=%D8%B1%D8%B6%D8%A7%D8%B9%D8%A7%D8%AA
+                - listitem [ref=f33e1637]:
+                  - link "تحضير الحليب" [ref=f33e1638] [cursor=pointer]:
+                    - /url: /products?category=baby&subcategory=formula-preparation&name=%D8%AA%D8%AD%D8%B6%D9%8A%D8%B1%20%D8%A7%D9%84%D8%AD%D9%84%D9%8A%D8%A8
+                - listitem [ref=f33e1640]:
+                  - link "اللهايات" [ref=f33e1641] [cursor=pointer]:
+                    - /url: /products?category=baby&subcategory=pacifiers&name=%D8%A7%D9%84%D9%84%D9%87%D8%A7%D9%8A%D8%A7%D8%AA
+                - listitem [ref=f33e1643]:
+                  - link "مستلزمات طعام الأطفال" [ref=f33e1644] [cursor=pointer]:
+                    - /url: /products?category=baby&subcategory=feeding-accessories&name=%D9%85%D8%B3%D8%AA%D9%84%D8%B2%D9%85%D8%A7%D8%AA%20%D8%B7%D8%B9%D8%A7%D9%85%20%D8%A7%D9%84%D8%A3%D8%B7%D9%81%D8%A7%D9%84
+                - listitem [ref=f33e1646]:
+                  - link "مريلة للأطفال" [ref=f33e1647] [cursor=pointer]:
+                    - /url: /products?category=baby&subcategory=baby-bibs&name=%D9%85%D8%B1%D9%8A%D9%84%D8%A9%20%D9%84%D9%84%D8%A3%D8%B7%D9%81%D8%A7%D9%84
+                - listitem [ref=f33e1649]:
+                  - link "كراسي طعام الاطفال" [ref=f33e1650] [cursor=pointer]:
+                    - /url: /products?category=baby&subcategory=high-chairs&name=%D9%83%D8%B1%D8%A7%D8%B3%D9%8A%20%D8%B7%D8%B9%D8%A7%D9%85%20%D8%A7%D9%84%D8%A7%D8%B7%D9%81%D8%A7%D9%84
+            - generic [ref=f33e1652]:
+              - link "التغذية الرياضية" [ref=f33e1653] [cursor=pointer]:
+                - /url: /products?category=vitamins
+              - list [ref=f33e1658]:
+                - listitem [ref=f33e1659]:
+                  - link "واي بروتين" [ref=f33e1660] [cursor=pointer]:
+                    - /url: /products?category=vitamins&subcategory=Protein%20Supplements&name=%D9%88%D8%A7%D9%8A%20%D8%A8%D8%B1%D9%88%D8%AA%D9%8A%D9%86
+                - listitem [ref=f33e1662]:
+                  - link "مكمل زيادة الوزن" [ref=f33e1663] [cursor=pointer]:
+                    - /url: /products?category=vitamins&subcategory=Protein%20Supplements&name=%D9%85%D9%83%D9%85%D9%84%20%D8%B2%D9%8A%D8%A7%D8%AF%D8%A9%20%D8%A7%D9%84%D9%88%D8%B2%D9%86
+                - listitem [ref=f33e1665]:
+                  - link "كرياتين" [ref=f33e1666] [cursor=pointer]:
+                    - /url: /products?category=vitamins&subcategory=Supplements&name=%D9%83%D8%B1%D9%8A%D8%A7%D8%AA%D9%8A%D9%86
+                - listitem [ref=f33e1668]:
+                  - link "إل-أرجينين" [ref=f33e1669] [cursor=pointer]:
+                    - /url: /products?category=vitamins&subcategory=Supplements&name=%D8%A5%D9%84-%D8%A3%D8%B1%D8%AC%D9%8A%D9%86%D9%8A%D9%86
+                - listitem [ref=f33e1671]:
+                  - link "BCAA" [ref=f33e1672] [cursor=pointer]:
+                    - /url: /products?category=vitamins&subcategory=Supplements&name=BCAA
+                - listitem [ref=f33e1674]:
+                  - link "الجلوتامين" [ref=f33e1675] [cursor=pointer]:
+                    - /url: /products?category=vitamins&subcategory=Supplements&name=%D8%A7%D9%84%D8%AC%D9%84%D9%88%D8%AA%D8%A7%D9%85%D9%8A%D9%86
+                - listitem [ref=f33e1677]:
+                  - link "بروتين بار" [ref=f33e1678] [cursor=pointer]:
+                    - /url: /products?category=vitamins&subcategory=Protein%20Supplements&name=%D8%A8%D8%B1%D9%88%D8%AA%D9%8A%D9%86%20%D8%A8%D8%A7%D8%B1
+                - listitem [ref=f33e1680]:
+                  - link "حرق الدهون" [ref=f33e1681] [cursor=pointer]:
+                    - /url: /products?category=vitamins&subcategory=Supplements&name=%D8%AD%D8%B1%D9%82%20%D8%A7%D9%84%D8%AF%D9%87%D9%88%D9%86
+                - listitem [ref=f33e1683]:
+                  - link "زجاجة شيكر" [ref=f33e1684] [cursor=pointer]:
+                    - /url: /products?category=vitamins&subcategory=Supplements&name=%D8%B2%D8%AC%D8%A7%D8%AC%D8%A9%20%D8%B4%D9%8A%D9%83%D8%B1
+            - generic [ref=f33e1686]:
+              - link "الأجهزة الطبية" [ref=f33e1687] [cursor=pointer]:
+                - /url: /products?category=medical
+              - list [ref=f33e1692]:
+                - listitem [ref=f33e1693]:
+                  - link "رعاية السكري" [ref=f33e1694] [cursor=pointer]:
+                    - /url: /products?category=medical&subcategory=Diabetes%20Care&name=%D8%B1%D8%B9%D8%A7%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B3%D9%83%D8%B1%D9%8A
+                - listitem [ref=f33e1696]:
+                  - link "أجهزة مراقبة القلب" [ref=f33e1697] [cursor=pointer]:
+                    - /url: /products?category=medical&subcategory=Blood%20Pressure%20Monitors&name=%D8%A3%D8%AC%D9%87%D8%B2%D8%A9%20%D9%85%D8%B1%D8%A7%D9%82%D8%A8%D8%A9%20%D8%A7%D9%84%D9%82%D9%84%D8%A8
+                - listitem [ref=f33e1699]:
+                  - link "مقياس الحرارة" [ref=f33e1700] [cursor=pointer]:
+                    - /url: /products?category=medical&subcategory=Thermometers&name=%D9%85%D9%82%D9%8A%D8%A7%D8%B3%20%D8%A7%D9%84%D8%AD%D8%B1%D8%A7%D8%B1%D8%A9
+                - listitem [ref=f33e1702]:
+                  - link "أجهزة التدليك" [ref=f33e1703] [cursor=pointer]:
+                    - /url: /products?category=medical&subcategory=massage-devices&name=%D8%A3%D8%AC%D9%87%D8%B2%D8%A9%20%D8%A7%D9%84%D8%AA%D8%AF%D9%84%D9%8A%D9%83
+                - listitem [ref=f33e1705]:
+                  - link "قياس الوزن" [ref=f33e1706] [cursor=pointer]:
+                    - /url: /products?category=medical&subcategory=weight-scales&name=%D9%82%D9%8A%D8%A7%D8%B3%20%D8%A7%D9%84%D9%88%D8%B2%D9%86
+                - listitem [ref=f33e1708]:
+                  - link "أجهزة تتبع الصحة" [ref=f33e1709] [cursor=pointer]:
+                    - /url: /products?category=medical&subcategory=Blood%20Pressure%20Monitors&name=%D8%A3%D8%AC%D9%87%D8%B2%D8%A9%20%D8%AA%D8%AA%D8%A8%D8%B9%20%D8%A7%D9%84%D8%B5%D8%AD%D8%A9
+                - listitem [ref=f33e1711]:
+                  - link "اختبار الصحة المنزلي" [ref=f33e1712] [cursor=pointer]:
+                    - /url: /products?category=medical&subcategory=home-health-tests&name=%D8%A7%D8%AE%D8%AA%D8%A8%D8%A7%D8%B1%20%D8%A7%D9%84%D8%B5%D8%AD%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%B2%D9%84%D9%8A
+                - listitem [ref=f33e1714]:
+                  - link "سبا القدم" [ref=f33e1715] [cursor=pointer]:
+                    - /url: /products?category=medical&subcategory=Body%20Care&name=%D8%B3%D8%A8%D8%A7%20%D8%A7%D9%84%D9%82%D8%AF%D9%85
+            - generic [ref=f33e1717]:
+              - link "الرعاية الصحية المنزلية" [ref=f33e1718] [cursor=pointer]:
+                - /url: /products?category=firstaid
+              - list [ref=f33e1723]:
+                - listitem [ref=f33e1724]:
+                  - link "دعم الجسم" [ref=f33e1725] [cursor=pointer]:
+                    - /url: /products?category=firstaid&subcategory=Bandages%20%26%20Gauze&name=%D8%AF%D8%B9%D9%85%20%D8%A7%D9%84%D8%AC%D8%B3%D9%85
+                - listitem [ref=f33e1727]:
+                  - link "وسائد ومخدات" [ref=f33e1728] [cursor=pointer]:
+                    - /url: /products?category=firstaid&subcategory=pillows-cushions&name=%D9%88%D8%B3%D8%A7%D8%A6%D8%AF%20%D9%88%D9%85%D8%AE%D8%AF%D8%A7%D8%AA
+                - listitem [ref=f33e1730]:
+                  - link "الكمامات و أقنعة الوجه" [ref=f33e1731] [cursor=pointer]:
+                    - /url: /products?category=firstaid&subcategory=Face%20Masks&name=%D8%A7%D9%84%D9%83%D9%85%D8%A7%D9%85%D8%A7%D8%AA%20%D9%88%20%D8%A3%D9%82%D9%86%D8%B9%D8%A9%20%D8%A7%D9%84%D9%88%D8%AC%D9%87
+                - listitem [ref=f33e1733]:
+                  - link "كمادات باردة وساخنة" [ref=f33e1734] [cursor=pointer]:
+                    - /url: /products?category=firstaid&subcategory=First%20Aid%20Kits&name=%D9%83%D9%85%D8%A7%D8%AF%D8%A7%D8%AA%20%D8%A8%D8%A7%D8%B1%D8%AF%D8%A9%20%D9%88%D8%B3%D8%A7%D8%AE%D9%86%D8%A9
+                - listitem [ref=f33e1736]:
+                  - link "العناية بالجروح" [ref=f33e1737] [cursor=pointer]:
+                    - /url: /products?category=firstaid&subcategory=Bandages%20%26%20Gauze&name=%D8%A7%D9%84%D8%B9%D9%86%D8%A7%D9%8A%D8%A9%20%D8%A8%D8%A7%D9%84%D8%AC%D8%B1%D9%88%D8%AD
+                - listitem [ref=f33e1739]:
+                  - link "العناية الصحية للبالغين" [ref=f33e1740] [cursor=pointer]:
+                    - /url: /products?category=firstaid&subcategory=adult-care&name=%D8%A7%D9%84%D8%B9%D9%86%D8%A7%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B5%D8%AD%D9%8A%D8%A9%20%D9%84%D9%84%D8%A8%D8%A7%D9%84%D8%BA%D9%8A%D9%86
+                - listitem [ref=f33e1742]:
+                  - link "الكراسي المتحركة والسكوتر" [ref=f33e1743] [cursor=pointer]:
+                    - /url: /products?category=firstaid&subcategory=wheelchairs-scooters&name=%D8%A7%D9%84%D9%83%D8%B1%D8%A7%D8%B3%D9%8A%20%D8%A7%D9%84%D9%85%D8%AA%D8%AD%D8%B1%D9%83%D8%A9%20%D9%88%D8%A7%D9%84%D8%B3%D9%83%D9%88%D8%AA%D8%B1
+                - listitem [ref=f33e1745]:
+                  - link "السلامة في الحمام" [ref=f33e1746] [cursor=pointer]:
+                    - /url: /products?category=firstaid&subcategory=bathroom-safety&name=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%D8%A9%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%AD%D9%85%D8%A7%D9%85
+                - listitem [ref=f33e1748]:
+                  - link "سرير طبي" [ref=f33e1749] [cursor=pointer]:
+                    - /url: /products?category=firstaid&subcategory=medical-beds&name=%D8%B3%D8%B1%D9%8A%D8%B1%20%D8%B7%D8%A8%D9%8A
+            - generic [ref=f33e1751]:
+              - link "التغذية الصحية" [ref=f33e1752] [cursor=pointer]:
+                - /url: /products?category=vitamins
+              - list [ref=f33e1757]:
+                - listitem [ref=f33e1758]:
+                  - link "العسل" [ref=f33e1759] [cursor=pointer]:
+                    - /url: /products?category=vitamins&subcategory=honey&name=%D8%A7%D9%84%D8%B9%D8%B3%D9%84
+                - listitem [ref=f33e1761]:
+                  - link "بروتين بار" [ref=f33e1762] [cursor=pointer]:
+                    - /url: /products?category=vitamins&subcategory=Protein%20Supplements&name=%D8%A8%D8%B1%D9%88%D8%AA%D9%8A%D9%86%20%D8%A8%D8%A7%D8%B1
+                - listitem [ref=f33e1764]:
+                  - link "شوكولاتة دايت" [ref=f33e1765] [cursor=pointer]:
+                    - /url: /products?category=vitamins&subcategory=diet-chocolate&name=%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9%20%D8%AF%D8%A7%D9%8A%D8%AA
+                - listitem [ref=f33e1767]:
+                  - link "مشروبات الإرواء" [ref=f33e1768] [cursor=pointer]:
+                    - /url: /products?category=vitamins&subcategory=hydration-drinks&name=%D9%85%D8%B4%D8%B1%D9%88%D8%A8%D8%A7%D8%AA%20%D8%A7%D9%84%D8%A5%D8%B1%D9%88%D8%A7%D8%A1
+                - listitem [ref=f33e1770]:
+                  - link "المُحليات" [ref=f33e1771] [cursor=pointer]:
+                    - /url: /products?category=vitamins&subcategory=sweeteners&name=%D8%A7%D9%84%D9%85%D9%8F%D8%AD%D9%84%D9%8A%D8%A7%D8%AA
+                - listitem [ref=f33e1773]:
+                  - link "بديل الوجبات" [ref=f33e1774] [cursor=pointer]:
+                    - /url: /products?category=vitamins&subcategory=meal-replacement&name=%D8%A8%D8%AF%D9%8A%D9%84%20%D8%A7%D9%84%D9%88%D8%AC%D8%A8%D8%A7%D8%AA
+                - listitem [ref=f33e1776]:
+                  - link "مياه طبيعية" [ref=f33e1777] [cursor=pointer]:
+                    - /url: /products?category=vitamins&subcategory=natural-water&name=%D9%85%D9%8A%D8%A7%D9%87%20%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A%D8%A9
+                - listitem [ref=f33e1779]:
+                  - link "الشاي و الأعشاب" [ref=f33e1780] [cursor=pointer]:
+                    - /url: /products?category=vitamins&subcategory=Digestive%20Health&name=%D8%A7%D9%84%D8%B4%D8%A7%D9%8A%20%D9%88%20%D8%A7%D9%84%D8%A3%D8%B9%D8%B4%D8%A7%D8%A8
+            - generic [ref=f33e1782]:
+              - link "العناية النسائية" [ref=f33e1783] [cursor=pointer]:
+                - /url: /products?category=beauty
+              - list [ref=f33e1788]:
+                - listitem [ref=f33e1789]:
+                  - link "الفوط الصحية" [ref=f33e1790] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=sanitary-pads&name=%D8%A7%D9%84%D9%81%D9%88%D8%B7%20%D8%A7%D9%84%D8%B5%D8%AD%D9%8A%D8%A9
+                - listitem [ref=f33e1792]:
+                  - link "الامواس وشفرات الحلاقة" [ref=f33e1793] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=razors-blades&name=%D8%A7%D9%84%D8%A7%D9%85%D9%88%D8%A7%D8%B3%20%D9%88%D8%B4%D9%81%D8%B1%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AD%D9%84%D8%A7%D9%82%D8%A9
+                - listitem [ref=f33e1795]:
+                  - link "الشمع والحلاوة" [ref=f33e1796] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=waxing&name=%D8%A7%D9%84%D8%B4%D9%85%D8%B9%20%D9%88%D8%A7%D9%84%D8%AD%D9%84%D8%A7%D9%88%D8%A9
+                - listitem [ref=f33e1798]:
+                  - link "أجهزة أزالة الشعر" [ref=f33e1799] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=hair-removal-devices&name=%D8%A3%D8%AC%D9%87%D8%B2%D8%A9%20%D8%A3%D8%B2%D8%A7%D9%84%D8%A9%20%D8%A7%D9%84%D8%B4%D8%B9%D8%B1
+                - listitem [ref=f33e1801]:
+                  - link "إزالة الشعر الزائد" [ref=f33e1802] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=hair-removal-plus&name=%D8%A5%D8%B2%D8%A7%D9%84%D8%A9%20%D8%A7%D9%84%D8%B4%D8%B9%D8%B1%20%D8%A7%D9%84%D8%B2%D8%A7%D8%A6%D8%AF
+                - listitem [ref=f33e1804]:
+                  - link "الفوط اليومية" [ref=f33e1805] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=panty-liners&name=%D8%A7%D9%84%D9%81%D9%88%D8%B7%20%D8%A7%D9%84%D9%8A%D9%88%D9%85%D9%8A%D8%A9
+                - listitem [ref=f33e1807]:
+                  - link "غسول ومناديل حميمة" [ref=f33e1808] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=intimate-care&name=%D8%BA%D8%B3%D9%88%D9%84%20%D9%88%D9%85%D9%86%D8%A7%D8%AF%D9%8A%D9%84%20%D8%AD%D9%85%D9%8A%D9%85%D8%A9
+                - listitem [ref=f33e1810]:
+                  - link "سدادات قطنية" [ref=f33e1811] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=tampons&name=%D8%B3%D8%AF%D8%A7%D8%AF%D8%A7%D8%AA%20%D9%82%D8%B7%D9%86%D9%8A%D8%A9
+                - listitem [ref=f33e1813]:
+                  - link "فيتامينات متعددة للسيدات" [ref=f33e1814] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=Multivitamins&name=%D9%81%D9%8A%D8%AA%D8%A7%D9%85%D9%8A%D9%86%D8%A7%D8%AA%20%D9%85%D8%AA%D8%B9%D8%AF%D8%AF%D8%A9%20%D9%84%D9%84%D8%B3%D9%8A%D8%AF%D8%A7%D8%AA
+                - listitem [ref=f33e1816]:
+                  - link "العناية بالحمل" [ref=f33e1817] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=Maternity%20Care&name=%D8%A7%D9%84%D8%B9%D9%86%D8%A7%D9%8A%D8%A9%20%D8%A8%D8%A7%D9%84%D8%AD%D9%85%D9%84
+                - listitem [ref=f33e1819]:
+                  - link "الراحة أثناء الدورة الشهرية" [ref=f33e1820] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=period-comfort&name=%D8%A7%D9%84%D8%B1%D8%A7%D8%AD%D8%A9%20%D8%A3%D8%AB%D9%86%D8%A7%D8%A1%20%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D8%A9%20%D8%A7%D9%84%D8%B4%D9%87%D8%B1%D9%8A%D8%A9
+            - generic [ref=f33e1822]:
+              - link "العناية بالجسم والاستحمام" [ref=f33e1823] [cursor=pointer]:
+                - /url: /products?category=beauty
+              - list [ref=f33e1828]:
+                - listitem [ref=f33e1829]:
+                  - link "حمام الملح" [ref=f33e1830] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=Body%20Care&name=%D8%AD%D9%85%D8%A7%D9%85%20%D8%A7%D9%84%D9%85%D9%84%D8%AD
+                - listitem [ref=f33e1832]:
+                  - link "لوشن الجسم" [ref=f33e1833] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=Body%20Care&name=%D9%84%D9%88%D8%B4%D9%86%20%D8%A7%D9%84%D8%AC%D8%B3%D9%85
+                - listitem [ref=f33e1835]:
+                  - link "عطر الجسم" [ref=f33e1836] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=Body%20Care&name=%D8%B9%D8%B7%D8%B1%20%D8%A7%D9%84%D8%AC%D8%B3%D9%85
+                - listitem [ref=f33e1838]:
+                  - link "مقشر الجسم" [ref=f33e1839] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=Body%20Care&name=%D9%85%D9%82%D8%B4%D8%B1%20%D8%A7%D9%84%D8%AC%D8%B3%D9%85
+                - listitem [ref=f33e1841]:
+                  - link "غسول اليد" [ref=f33e1842] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=Body%20Care&name=%D8%BA%D8%B3%D9%88%D9%84%20%D8%A7%D9%84%D9%8A%D8%AF
+                - listitem [ref=f33e1844]:
+                  - link "جل استحمام" [ref=f33e1845] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=Body%20Care&name=%D8%AC%D9%84%20%D8%A7%D8%B3%D8%AA%D8%AD%D9%85%D8%A7%D9%85
+                - listitem [ref=f33e1847]:
+                  - link "صابون" [ref=f33e1848] [cursor=pointer]:
+                    - /url: /products?category=beauty&subcategory=Body%20Care&name=%D8%B5%D8%A7%D8%A8%D9%88%D9%86
+      - generic [ref=f33e1850]:
+        - generic [ref=f33e1851]:
+          - generic [ref=f33e1852]:
+            - link "Awon Pharmacy" [ref=f33e1853] [cursor=pointer]:
+              - /url: /
+              - img "Awon Pharmacy" [ref=f33e1854]
+              - generic [ref=f33e1855]:
+                - generic [ref=f33e1856]: Awon
+                - generic [ref=f33e1857]: Pharmacy
+            - paragraph [ref=f33e1858]: Your trusted healthcare partner since 2023.
+            - generic [ref=f33e1859]:
+              - link "Get it on Google Play" [ref=f33e1860] [cursor=pointer]:
+                - /url: https://play.google.com/store
+                - generic [ref=f33e1863]:
+                  - generic [ref=f33e1864]: GET IT ON
+                  - text: Google Play
+              - link "Download on the App Store" [ref=f33e1865] [cursor=pointer]:
+                - /url: https://www.apple.com/app-store
+                - generic [ref=f33e1869]:
+                  - generic [ref=f33e1870]: DOWNLOAD ON
+                  - text: App Store
+          - generic [ref=f33e1871]:
+            - heading "Quick Links" [level=3] [ref=f33e1872]
+            - list [ref=f33e1873]:
+              - listitem [ref=f33e1874]:
+                - link "الرئيسية" [ref=f33e1875] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f33e1876]:
+                - link "المنتجات" [ref=f33e1877] [cursor=pointer]:
+                  - /url: /products
+              - listitem [ref=f33e1878]:
+                - link "الفئات" [ref=f33e1879] [cursor=pointer]:
+                  - /url: /categories
+              - listitem [ref=f33e1880]:
+                - link "الوصفات الطبية" [ref=f33e1881] [cursor=pointer]:
+                  - /url: /prescriptions
+              - listitem [ref=f33e1882]:
+                - link "About Us" [ref=f33e1883] [cursor=pointer]:
+                  - /url: /about
+              - listitem [ref=f33e1884]:
+                - link "اتصل بنا" [ref=f33e1885] [cursor=pointer]:
+                  - /url: /contact
+          - generic [ref=f33e1886]:
+            - heading "Services" [level=3] [ref=f33e1887]
+            - list [ref=f33e1888]:
+              - listitem [ref=f33e1889]:
+                - link "Vaccinations" [ref=f33e1890] [cursor=pointer]:
+                  - /url: /services/vaccinations
+              - listitem [ref=f33e1891]:
+                - link "Health Checks" [ref=f33e1892] [cursor=pointer]:
+                  - /url: /services/health-checks
+              - listitem [ref=f33e1893]:
+                - link "Consultations" [ref=f33e1894] [cursor=pointer]:
+                  - /url: /services/consultations
+              - listitem [ref=f33e1895]:
+                - link "Chronic Medication" [ref=f33e1896] [cursor=pointer]:
+                  - /url: /services/chronic-medication
+          - generic [ref=f33e1897]:
+            - heading "Contact Us" [level=3] [ref=f33e1898]
+            - list [ref=f33e1899]:
+              - listitem [ref=f33e1900]:
+                - generic [ref=f33e1904]: 3RV5+56J، الشارع العام، الواديين 62263، المملكة العربية السعودية
+              - listitem [ref=f33e1905]:
+                - link "+966 17 253 0257" [ref=f33e1908] [cursor=pointer]:
+                  - /url: tel:+966172530257
+              - listitem [ref=f33e1909]:
+                - generic [ref=f33e1913]: info@awonpharmacy.com
+            - link "موقع صيدلية عون" [ref=f33e1914] [cursor=pointer]:
+              - /url: /location
+        - generic [ref=f33e1919]:
+          - iframe [ref=f33e1920]
+          - generic [ref=f33e1921]:
+            - paragraph [ref=f33e1922]: صيدلية عون - الواديين
+            - link "افتح في خرائط Google" [ref=f33e1923] [cursor=pointer]:
+              - /url: https://www.google.com/maps/search/?api=1&query=3RV5%2B56J%20Al%20Wadeen%2062263%20Saudi%20Arabia
+        - generic [ref=f33e1924]:
+          - paragraph [ref=f33e1925]: © 2026 Awon Pharmacy. All rights reserved.
+          - generic [ref=f33e1926]:
+            - link "Terms of Service" [ref=f33e1927] [cursor=pointer]:
+              - /url: /terms
+            - link "Privacy Policy" [ref=f33e1928] [cursor=pointer]:
+              - /url: /privacy
+  - alert [ref=f33e1929]

@@ -1,0 +1,120 @@
+Search/Replace blocks for client/src/pages/user/HomePage.js to fix centering, translation, and live background:
+
+1.
+<<<<<<< SEARCH
+import React from "react";
+import ServicesSection from "../../components/ServicesSection";
+import BottomProductsSection from "../../components/BottomProductsSection";
+import PharmacyLocationMap from "../../components/PharmacyLocationMap";
+import SocialMediaQuickContact from "../../components/SocialMediaQuickContact";
+=======
+import React from "react";
+import { useTranslation } from "react-i18next";
+import ServicesSection from "../../components/ServicesSection";
+import BottomProductsSection from "../../components/BottomProductsSection";
+import PharmacyLocationMap from "../../components/PharmacyLocationMap";
+import SocialMediaQuickContact from "../../components/SocialMediaQuickContact";
+import LiveVideoBackground from "../../components/LiveVideoBackground";
+2.
+<<<<<<< SEARCH
+const HomePage = () => {
+  return (
+    <div className="relative min-h-screen bg-black text-white">
+      {/* Welcome Message at top */} 
+      <div className="text-left z-20 max-w-4xl mb-10 p-4">
+        <h1 className="text-6xl md:text-7xl font-extrabold mb-6">
+          صيدلية عون القحطاني
+        </h1>
+        <p className="text-2xl md:text-3xl mb-10">
+          كل ما تحتاجه من الرعاية الصحية والتوصيل السريع في مكان واحد
+        </p>
+        <div className="flex justify-start gap-6">
+          <a
+            href="/products"
+            className="bg-teal-600 hover:bg-teal-700 text-white text-xl px-8 py-3 rounded shadow font-bold transition"
+          >
+            تسوق الآن
+          </a>
+          <a
+            href="/contact"
+            className="bg-white hover:bg-gray-100 text-teal-700 text-xl px-8 py-3 rounded shadow font-bold transition"
+          >
+            تواصل معنا
+          </a>
+        </div>
+      </div>
+=======
+const HomePage = () => {
+  const { t } = useTranslation();
+
+  return (
+    <div className="relative min-h-screen bg-black text-white overflow-hidden">
+      <LiveVideoBackground
+        videoSrc="/videos/istockphoto-1145285950-640_adpp_is.mp4"
+        height={600}
+      />
+
+      {/* Welcome Message at top */}
+      <div className="absolute top-20 left-1/2 transform -translate-x-1/2 z-20 max-w-4xl mb-10 p-4 text-center">
+        <h1 className="text-6xl md:text-7xl font-extrabold mb-6">
+          {t("homepage.title")}
+        </h1>
+        <p className="text-2xl md:text-3xl mb-10">
+          {t("homepage.description")}
+        </p>
+        <div className="flex justify-center gap-6">
+          <a
+            href="/products"
+            className="bg-teal-600 hover:bg-teal-700 text-white text-xl px-8 py-3 rounded shadow font-bold transition"
+          >
+            {t("shopNow")}
+          </a>
+          <a
+            href="/contact"
+            className="bg-white hover:bg-gray-100 text-teal-700 text-xl px-8 py-3 rounded shadow font-bold transition"
+          >
+            {t("contactUs")}
+          </a>
+        </div>
+      </div>
+3.
+<<<<<<< SEARCH
+      {/* Main Content Sections */}
+      <main className="relative z-10 bg-black">
+        <ServicesSection />
+
+        {/* Product Carousels and Offer Sections */}
+        <section className="max-w-7xl mx-auto px-4 py-12 space-y-12 text-black">
+          <section>
+            <h2 className="text-2xl font-semibold mb-4">Yoyo Strollers</h2>
+            <div className="bg-gray-100 h-40 rounded-lg flex items-center justify-center">
+              <p>Carousel of Yoyo Strollers here</p>
+            </div>
+          </section>
+          ...
+      </main>
+
+      <BottomProductsSection />
+    </div>
+  );
+};
+=======
+      {/* Main Content Sections */}
+      <main className="relative z-10 bg-black">
+        <ServicesSection />
+
+        {/* Product Carousels and Offer Sections */}
+        <section className="max-w-7xl mx-auto px-4 py-12 space-y-12 text-black">
+          <section>
+            <h2 className="text-2xl font-semibold mb-4">Yoyo Strollers</h2>
+            <div className="bg-gray-100 h-40 rounded-lg flex items-center justify-center">
+              <p>Carousel of Yoyo Strollers here</p>
+            </div>
+          </section>
+          ...
+      </main>
+
+      <BottomProductsSection />
+    </div>
+  );
+};

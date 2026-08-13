@@ -1,0 +1,16 @@
+- generic [active] [ref=f5e2]:
+  - generic [ref=f5e5]:
+    - heading "دخول المدير" [level=3] [ref=f5e7]
+    - generic [ref=f5e9]:
+      - generic [ref=f5e10]:
+        - text: البريد الإلكتروني
+        - textbox "البريد الإلكتروني" [ref=f5e15]: admin@admin.com
+      - generic [ref=f5e16]:
+        - text: Password
+        - textbox "Password" [ref=f5e21]: password
+      - generic [ref=f5e22]:
+        - paragraph [ref=f5e23]: "Demo Credentials:"
+        - paragraph [ref=f5e24]: "البريد الإلكتروني: admin@admin.com"
+        - paragraph [ref=f5e25]: "Password: password"
+      - button "تسجيل الدخول" [ref=f5e26] [cursor=pointer]
+  - alert [ref=f5e1]

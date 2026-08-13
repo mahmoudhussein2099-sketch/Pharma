@@ -1,0 +1,28 @@
+/* Admin styles */
+.admin-page-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  background-color: #f9fafb;
+  overflow: hidden;
+}
+
+/* Hide header and footer on admin pages */
+body:has(.admin-page-container) header,
+body:has(.admin-page-container) footer,
+body:has(.admin-page-container) > div > main {
+  display: none !important;
+}
+
+/* Dark mode support */
+.dark .admin-page-container {
+  background-color: #111827;
+}
+
+/* Fix for modal z-index */
+.modal {
+  z-index: 10000;
+}

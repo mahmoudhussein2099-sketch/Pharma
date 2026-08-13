@@ -1,0 +1,61 @@
+export const CATEGORY_LABELS = {
+  prescription: { en: 'Prescription Medicines', ar: 'أدوية بوصفة طبية' },
+  otc: { en: 'Over-the-Counter', ar: 'بدون وصفة طبية' },
+  vitamins: { en: 'Vitamins & Supplements', ar: 'فيتامينات ومكملات' },
+  baby: { en: 'Baby & Mother Care', ar: 'العناية بالأم والطفل' },
+  beauty: { en: 'Beauty & Personal Care', ar: 'التجميل والعناية الشخصية' },
+  medical: { en: 'Medical Devices', ar: 'الأجهزة الطبية' },
+  firstaid: { en: 'First Aid', ar: 'الإسعافات الأولية' },
+  eye: { en: 'Eye Care', ar: 'العناية بالعين' },
+};
+
+export const SUBCATEGORY_LABELS = {
+  'Allergy Relief': { en: 'Allergy Relief', ar: 'تخفيف الحساسية' },
+  'Anti-Aging': { en: 'Anti-Aging', ar: 'مكافحة التجاعيد' },
+  'Antibiotics': { en: 'Antibiotics', ar: 'مضادات حيوية' },
+  'Baby Formula': { en: 'Baby Formula', ar: 'حليب أطفال' },
+  'Baby Skincare': { en: 'Baby Skincare', ar: 'عناية بشرة الأطفال' },
+  'Bandages & Gauze': { en: 'Bandages & Gauze', ar: 'ضمادات وشاش طبي' },
+  'Blood Pressure': { en: 'Blood Pressure', ar: 'ضغط الدم' },
+  'Blood Pressure Monitors': { en: 'Blood Pressure Monitors', ar: 'أجهزة قياس الضغط' },
+  'Body Care': { en: 'Body Care', ar: 'العناية بالجسم' },
+  'Cold & Flu': { en: 'Cold & Flu', ar: 'البرد والإنفلونزا' },
+  'Contact Lenses': { en: 'Contact Lenses', ar: 'عدسات لاصقة' },
+  'Cough Syrups': { en: 'Cough Syrups', ar: 'شراب السعال' },
+  'Diabetes Care': { en: 'Diabetes Care', ar: 'العناية بالسكري' },
+  'Diapers & Wipes': { en: 'Diapers & Wipes', ar: 'حفاضات ومناديل مبللة' },
+  'Digestive Health': { en: 'Digestive Health', ar: 'صحة الجهاز الهضمي' },
+  'Eye Care': { en: 'Eye Care', ar: 'العناية بالعين' },
+  'Eye Drops': { en: 'Eye Drops', ar: 'قطرات العين' },
+  'Face Masks': { en: 'Face Masks', ar: 'أقنعة الوجه' },
+  'First Aid Kits': { en: 'First Aid Kits', ar: 'حقائب إسعافات أولية' },
+  'General Health': { en: 'General Health', ar: 'صحة عامة' },
+  'Glucose Meters': { en: 'Glucose Meters', ar: 'أجهزة قياس السكر' },
+  'Hair Care': { en: 'Hair Care', ar: 'العناية بالشعر' },
+  'Hand Sanitizers': { en: 'Hand Sanitizers', ar: 'معقمات اليدين' },
+  'Heart Medications': { en: 'Heart Medications', ar: 'أدوية القلب' },
+  'Iron & B12': { en: 'Iron & B12', ar: 'حديد وفيتامين ب12' },
+  'Lens Solutions': { en: 'Lens Solutions', ar: 'محاليل العدسات اللاصقة' },
+  'Maternity Care': { en: 'Maternity Care', ar: 'العناية بالحوامل' },
+  'Multivitamins': { en: 'Multivitamins', ar: 'فيتامينات متعددة' },
+  'Omega-3': { en: 'Omega-3', ar: 'أوميغا 3' },
+  'Oral Care': { en: 'Oral Care', ar: 'العناية بالفم والأسنان' },
+  'Pain Relief': { en: 'Pain Relief', ar: 'مسكنات الألم' },
+  'Probiotics': { en: 'Probiotics', ar: 'بروبيوتيك' },
+  'Protein Supplements': { en: 'Protein Supplements', ar: 'مكملات البروتين' },
+  'Pulse Oximeters': { en: 'Pulse Oximeters', ar: 'أجهزة قياس الأكسجين' },
+  'Reading Glasses': { en: 'Reading Glasses', ar: 'نظارات قراءة' },
+  'Skincare Products': { en: 'Skincare Products', ar: 'منتجات العناية بالبشرة' },
+  'Sleep Aids': { en: 'Sleep Aids', ar: 'مستحضرات النوم' },
+  'Sunscreen': { en: 'Sunscreen', ar: 'واقي الشمس' },
+  'Supplements': { en: 'Supplements', ar: 'مكملات غذائية' },
+  'Thermometers': { en: 'Thermometers', ar: 'مقاييس الحرارة' },
+  'Thyroid Medications': { en: 'Thyroid Medications', ar: 'أدوية الغدة الدرقية' },
+  'Vitamin D': { en: 'Vitamin D', ar: 'فيتامين د' },
+};
+
+export const localizeCategory = (key, lang, fallback) =>
+  CATEGORY_LABELS[key]?.[lang] || fallback || key || '';
+
+export const localizeSubcategory = (key, lang, fallback) =>
+  SUBCATEGORY_LABELS[key]?.[lang] || fallback || key || '';

@@ -1,0 +1,401 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Line clamp utilities */
+.line-clamp-1 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+
+.line-clamp-2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.line-clamp-3 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+/* ===== Design tokens (Awon brand) ===== */
+:root {
+  --background: #f8fafc;
+  --foreground: #0f172a;
+  --card: #ffffff;
+  --card-foreground: #0f172a;
+  --popover: #ffffff;
+  --popover-foreground: #0f172a;
+  --primary: #0d9488;
+  --primary-foreground: #ffffff;
+  --secondary: #f1f5f9;
+  --secondary-foreground: #0f172a;
+  --muted: #f1f5f9;
+  --muted-foreground: #64748b;
+  --accent: #ccfbf1;
+  --accent-foreground: #115e59;
+  --destructive: #dc2626;
+  --destructive-foreground: #ffffff;
+  --success: #16a34a;
+  --success-foreground: #ffffff;
+  --warning: #f59e0b;
+  --warning-foreground: #ffffff;
+  --border: #e2e8f0;
+  --input: #e2e8f0;
+  --ring: #14b8a6;
+  --radius: 0.75rem;
+  --font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', 'Roboto', sans-serif;
+
+  /* --- Extended semantic aliases (mirror tailwind for non-JS usage) --- */
+  --color-primary: #0d9488;
+  --color-primary-hover: #0f766e;
+  --color-primary-light: #ccfbf1;
+  --color-secondary: #06b6d4;
+  --color-accent: #f59e0b;
+  --color-success: #059669;
+  --color-warning: #f97316;
+  --color-danger: #dc2626;
+
+  /* --- Surface Tokens --- */
+  --surface-light: #ffffff;
+  --surface-light-muted: #f8fafc;
+  --surface-dark: #0f172a;
+  --surface-dark-muted: #1e293b;
+
+  /* --- Glassmorphism --- */
+  --glass-bg: linear-gradient(160deg, rgba(255,255,255,0.92), rgba(255,255,255,0.66));
+  --glass-border: rgba(255,255,255,0.65);
+  --glass-bg-dark: linear-gradient(160deg, rgba(15,23,42,0.9), rgba(15,23,42,0.62));
+  --glass-border-dark: rgba(148,163,184,0.2);
+
+  /* --- Shadows --- */
+  --shadow-glass: 0 4px 24px rgba(15, 23, 42, 0.08), 0 1px 3px rgba(15, 23, 42, 0.05);
+  --shadow-glass-dark: 0 4px 24px rgba(0, 0, 0, 0.3), 0 1px 3px rgba(0, 0, 0, 0.2);
+  --shadow-premium: 0 20px 45px -18px rgba(13, 148, 136, 0.4), 0 6px 16px -8px rgba(15, 23, 42, 0.14);
+  --shadow-card-3d: 0 1px 2px rgba(15, 23, 42, 0.05), 0 10px 26px -8px rgba(15, 23, 42, 0.16), 0 28px 56px -18px rgba(15, 23, 42, 0.2);
+
+  /* --- Motion --- */
+  --duration-fast: 150ms;
+  --duration-normal: 250ms;
+  --duration-slow: 350ms;
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+
+  /* --- Z-index --- */
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-modal-backdrop: 300;
+  --z-modal: 400;
+  --z-toast: 500;
+  --z-tooltip: 600;
+}
+
+.dark {
+  --background: #0b1120;
+  --foreground: #e2e8f0;
+  --card: #0f172a;
+  --card-foreground: #e2e8f0;
+  --popover: #0f172a;
+  --popover-foreground: #e2e8f0;
+  --primary: #14b8a6;
+  --primary-foreground: #042f2e;
+  --secondary: #1e293b;
+  --secondary-foreground: #e2e8f0;
+  --muted: #1e293b;
+  --muted-foreground: #94a3b8;
+  --accent: #134e4a;
+  --accent-foreground: #5eead4;
+  --destructive: #f87171;
+  --destructive-foreground: #450a0a;
+  --success: #4ade80;
+  --success-foreground: #052e16;
+  --warning: #fbbf24;
+  --warning-foreground: #451a03;
+  --border: #1e293b;
+  --input: #1e293b;
+  --ring: #2dd4bf;
+  --radius: 0.75rem;
+  --font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', 'Roboto', sans-serif;
+
+  --surface-light: var(--surface-dark);
+  --surface-light-muted: var(--surface-dark-muted);
+  --glass-bg: var(--glass-bg-dark);
+  --glass-border: var(--glass-border-dark);
+  --shadow-glass: var(--shadow-glass-dark);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+button,
+a,
+input,
+select,
+textarea {
+  -webkit-tap-highlight-color: transparent;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+/* --- Premium design system: 3D depth, glass, motion --- */
+
+/* 3D tilt (set transform via JS: perspective(900px) rotateX() rotateY()) */
+.tilt-3d {
+  transform-style: preserve-3d;
+  will-change: transform;
+  transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.3s ease;
+}
+.tilt-3d .tilt-inner { transform: translateZ(30px); }
+.tilt-3d .tilt-inner-sm { transform: translateZ(18px); }
+.tilt-glare {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  background: radial-gradient(circle at var(--gx, 50%) var(--gy, 50%), rgba(255, 255, 255, 0.45), transparent 55%);
+}
+.tilt-wrap:hover .tilt-glare { opacity: 1; }
+
+/* Floating animations */
+@keyframes floatY {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+.animate-float { animation: floatY 5s ease-in-out infinite; }
+@keyframes floatYSlow {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-16px) rotate(4deg); }
+}
+.animate-float-slow { animation: floatYSlow 7s ease-in-out infinite; }
+
+/* Gradient brand text (brand-only teal ramp) */
+.text-gradient {
+  background: linear-gradient(120deg, #0d9488, #06b6d4, #0d9488);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* --- Signature brand textures (Awon) --- */
+
+/* Dot grid: subtle pharmacy-grid texture for section accents */
+.bg-dots-brand {
+  background-image: radial-gradient(rgba(13, 148, 136, 0.18) 1px, transparent 1px);
+  background-size: 18px 18px;
+}
+.dark .bg-dots-brand {
+  background-image: radial-gradient(rgba(45, 212, 191, 0.14) 1px, transparent 1px);
+}
+
+/* Diamond lattice: modern abstract wellness pattern */
+.bg-diamond-brand {
+  background-image: linear-gradient(135deg, rgba(13, 148, 136, 0.06) 25%, transparent 25%, transparent 50%, rgba(13, 148, 136, 0.06) 50%, rgba(13, 148, 136, 0.06) 75%, transparent 75%, transparent);
+  background-size: 28px 28px;
+}
+.dark .bg-diamond-brand {
+  background-image: linear-gradient(135deg, rgba(45, 212, 191, 0.05) 25%, transparent 25%, transparent 50%, rgba(45, 212, 191, 0.05) 50%, rgba(45, 212, 191, 0.05) 75%, transparent 75%, transparent);
+}
+
+/* Soft radial brand tint for heroes / premium bands */
+.bg-tint-hero {
+  background:
+    radial-gradient(ellipse 80% 50% at 50% -20%, rgba(13, 148, 136, 0.16), transparent),
+    radial-gradient(ellipse 60% 40% at 90% 110%, rgba(6, 182, 212, 0.12), transparent);
+}
+.dark .bg-tint-hero {
+  background:
+    radial-gradient(ellipse 80% 50% at 50% -20%, rgba(13, 148, 136, 0.12), transparent),
+    radial-gradient(ellipse 60% 40% at 90% 110%, rgba(6, 182, 212, 0.08), transparent);
+}
+
+/* Glass surface */
+.glass-card {
+  background: linear-gradient(160deg, rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.66));
+  border: 1px solid rgba(255, 255, 255, 0.65);
+}
+.dark .glass-card {
+  background: linear-gradient(160deg, rgba(15, 23, 42, 0.9), rgba(15, 23, 42, 0.62));
+  border-color: rgba(148, 163, 184, 0.2);
+}
+
+/* Premium layered shadows */
+.shadow-premium {
+  box-shadow: 0 20px 45px -18px rgba(13, 148, 136, 0.4), 0 6px 16px -8px rgba(15, 23, 42, 0.14);
+}
+.shadow-card3d {
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.05), 0 10px 26px -8px rgba(15, 23, 42, 0.16), 0 28px 56px -18px rgba(15, 23, 42, 0.2);
+}
+.dark .shadow-card3d {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 10px 26px -8px rgba(0, 0, 0, 0.5), 0 28px 56px -18px rgba(0, 0, 0, 0.6);
+}
+
+/* Shimmering sweep for premium surfaces */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+.shimmer {
+  background: linear-gradient(110deg, transparent 30%, rgba(255, 255, 255, 0.35) 50%, transparent 70%);
+  background-size: 200% 100%;
+  animation: shimmer 3.5s linear infinite;
+}
+
+/* Category / offer gradient surfaces (brand-aligned, kept in CSS only).
+   Each surface layers a glass sheen on top of a two-hue diagonal ramp so
+   tiles read as dimensional glass, not flat colour blocks. */
+.grad-teal {
+  background:
+    radial-gradient(120% 90% at 15% -10%, rgba(255, 255, 255, 0.28), transparent 55%),
+    linear-gradient(135deg, #0f766e 0%, #0d9488 48%, #0891b2 100%);
+}
+.grad-indigo {
+  background:
+    radial-gradient(120% 90% at 15% -10%, rgba(255, 255, 255, 0.24), transparent 55%),
+    linear-gradient(135deg, #4338ca 0%, #6d28d9 48%, #9333ea 100%);
+}
+.grad-emerald {
+  background:
+    radial-gradient(120% 90% at 15% -10%, rgba(255, 255, 255, 0.26), transparent 55%),
+    linear-gradient(135deg, #047857 0%, #059669 48%, #0d9488 100%);
+}
+.grad-amber {
+  background:
+    radial-gradient(120% 90% at 15% -10%, rgba(255, 255, 255, 0.32), transparent 55%),
+    linear-gradient(135deg, #b45309 0%, #d97706 48%, #f59e0b 100%);
+}
+.grad-rose {
+  background:
+    radial-gradient(120% 90% at 15% -10%, rgba(255, 255, 255, 0.28), transparent 55%),
+    linear-gradient(135deg, #be123c 0%, #e11d48 48%, #ec4899 100%);
+}
+.grad-sky {
+  background:
+    radial-gradient(120% 90% at 15% -10%, rgba(255, 255, 255, 0.28), transparent 55%),
+    linear-gradient(135deg, #0369a1 0%, #0284c7 48%, #06b6d4 100%);
+}
+.grad-night {
+  background:
+    radial-gradient(120% 90% at 15% -10%, rgba(255, 255, 255, 0.14), transparent 55%),
+    linear-gradient(135deg, #134e4a 0%, #0e7490 48%, #164e63 100%);
+}
+
+/* Offer hero 3D stage */
+.offer-stage {
+  background:
+    radial-gradient(120% 90% at 15% 0%, rgba(13, 148, 136, 0.55), transparent 60%),
+    radial-gradient(120% 90% at 90% 10%, rgba(6, 182, 212, 0.45), transparent 55%),
+    linear-gradient(140deg, #134e4a 0%, #0f766e 55%, #155e75 100%);
+}
+.dark .offer-stage {
+  background:
+    radial-gradient(120% 90% at 15% 0%, rgba(45, 212, 191, 0.22), transparent 60%),
+    radial-gradient(120% 90% at 90% 10%, rgba(34, 211, 238, 0.18), transparent 55%),
+    linear-gradient(140deg, #042f2e 0%, #134e4a 55%, #164e63 100%);
+}
+
+/* --- Utility Classes (using CSS vars - no hardcoded hex in JSX) --- */
+.glass { background: var(--glass-bg); border: 1px solid var(--glass-border); }
+.shadow-glass { box-shadow: var(--shadow-glass); }
+.shadow-premium { box-shadow: var(--shadow-premium); }
+.shadow-card-3d { box-shadow: var(--shadow-card-3d); }
+.text-brand { color: var(--color-primary); }
+.bg-brand { background-color: var(--color-primary); }
+.bg-brand-gradient { background: linear-gradient(135deg, var(--color-primary), var(--color-secondary)); }
+
+/* --- Cinematic pharmacy background system (Awon) --- */
+
+/* Theme-aware base gradient for hero / premium bands */
+.bg-cinematic {
+  background:
+    radial-gradient(ellipse 90% 55% at 15% -10%, rgba(13, 148, 136, 0.16), transparent 60%),
+    radial-gradient(ellipse 70% 50% at 92% 5%, rgba(6, 182, 212, 0.14), transparent 55%),
+    radial-gradient(ellipse 60% 40% at 55% 112%, rgba(13, 148, 136, 0.10), transparent 60%),
+    linear-gradient(180deg, var(--background), var(--background));
+}
+.dark .bg-cinematic {
+  background:
+    radial-gradient(ellipse 90% 55% at 15% -10%, rgba(20, 184, 166, 0.14), transparent 60%),
+    radial-gradient(ellipse 70% 50% at 92% 5%, rgba(34, 211, 238, 0.12), transparent 55%),
+    radial-gradient(ellipse 60% 40% at 55% 112%, rgba(20, 184, 166, 0.08), transparent 60%),
+    linear-gradient(180deg, var(--background), #0b1526);
+}
+
+/* Soft aurora blobs (CSS-only, pair with CinematicBackground canvas) */
+.aurora-blob {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(70px);
+  opacity: 0.5;
+  will-change: transform;
+}
+@keyframes auroraDrift1 {
+  0%, 100% { transform: translate3d(0, 0, 0) scale(1); }
+  50% { transform: translate3d(64px, 42px, 0) scale(1.18); }
+}
+@keyframes auroraDrift2 {
+  0%, 100% { transform: translate3d(0, 0, 0) scale(1.1); }
+  50% { transform: translate3d(-56px, -34px, 0) scale(0.92); }
+}
+.animate-aurora-1 { animation: auroraDrift1 16s ease-in-out infinite; }
+.animate-aurora-2 { animation: auroraDrift2 22s ease-in-out infinite; }
+
+/* Cinematic film grain (SVG noise, overlay blend) */
+.grain-overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.45;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.34'/%3E%3C/svg%3E");
+}
+
+/* Cinematic vignette */
+.vignette {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  box-shadow: inset 0 0 140px 30px rgba(15, 23, 42, 0.20);
+}
+.dark .vignette {
+  box-shadow: inset 0 0 140px 30px rgba(2, 6, 23, 0.5);
+}
